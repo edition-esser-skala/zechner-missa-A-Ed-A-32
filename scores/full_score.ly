@@ -25,18 +25,22 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
+					\new Staff \with { \smallStaffDistance } <<
 						\set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
 						\partcombine \KyrieClarinoI \KyrieClarinoII
 					>>
 					\new GrandStaff <<
 						\set GrandStaff.instrumentName = "Trombone"
 						\new Staff {
-							\set Staff.instrumentName = "I"
+							\set Staff.instrumentName = \TromboneIIncipit
+							\override Staff.InstrumentName.self-alignment-Y = ##f
+							\override Staff.InstrumentName.self-alignment-X = #RIGHT
 							\KyrieTromboneI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "II"
+							\set Staff.instrumentName = \TromboneIIIncipit
+							\override Staff.InstrumentName.self-alignment-Y = ##f
+							\override Staff.InstrumentName.self-alignment-X = #RIGHT
 							\KyrieTromboneII
 						}
 					>>

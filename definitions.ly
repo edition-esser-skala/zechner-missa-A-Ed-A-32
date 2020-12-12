@@ -661,6 +661,7 @@ tocLabel = #(define-music-function
 
 
 tempoKyrie = \tempoMarkup "Adagio"
+	tempoKyrieB = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"
