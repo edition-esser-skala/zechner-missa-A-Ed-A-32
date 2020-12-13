@@ -147,6 +147,228 @@ ChristeAltoLyrics = \lyricmode {
 	son. %67 finis
 }
 
+KyrieFugaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \autoBeamOff \tempoKyrieFuga
+			\set Score.currentBarNumber = #69
+		R1*7 %75
+		\mvTr g'2.\fE^\tuttiE g4
+		g2 g
+		a4( fis d fis)
+		g2. g4
+		a( fis d fis) %80
+		g2 e
+		d1
+		c
+		r4 e a g
+		f g2 f4 %85
+		e c a' g
+		f g2 f4
+		e c g'2~
+		g fis
+		g4 c h a %90
+		g2. g4
+		e( a fis a)
+		d,2 g
+		e4( a fis a)
+		d,2 e %95
+		f!1
+		e2 e~
+		e4 e e e
+		f( d h d)
+		e1 %100
+		R1*3
+		a2. a4
+		a2 a %105
+		h4( gis e gis)
+		a2. a4
+		h( gis e gis)
+		a2 r4 e
+		c e f e %110
+		d2 e
+		e e
+		dis4 e fis? g
+		fis2. fis4
+		e2 g~ %115
+		g4 g g g
+		fis1
+		e4 g( a g)
+		fis2. fis4
+		e2. e4 %120
+		d2^\critnote d
+		c1
+		h4 d e d
+		e d g2
+		e4 a fis a %125
+		d,2 g
+		e4( a fis a)
+		d,2 e
+		f1
+		e2 g %130
+		g( e)
+		e e
+		a1
+		gis
+		R1*6 %140
+		r4 g( a g)
+		f g2 f4
+		e g a g
+		f g2 f4
+		e2 a~ %145
+		a4 g \once \tieDashed g2~
+		g4 f \once \tieDashed f2~
+		f4 e e2
+		R1
+		g2. g4 %150
+		g2 g
+		a4( fis d fis)
+		g2. g4
+		a( fis d fis)
+		g2 g %155
+		f!1
+		e4 g a g
+		a2. g4
+		f g2 f4
+		e c a' g %160
+		f g2 f4
+		e c \once \tieDashed f2~
+		f e
+		f a~
+		a4 a f2 %165
+		d g
+		c, r
+		R1
+		r2 a'
+		g1 %170
+		f
+		e2 r
+		e2. e4
+		d2 g~
+		g e %175
+		f4( d h d)
+		e2 a
+		a4( g) g2
+		g4( f) f2
+		f4( e) e2 %180
+		e4( d) d2
+		r e
+		d1
+		e2 g
+		f( d) %185
+		e4 e d2
+		e r\fermata \bar "|." %187 finis
+	}
+}
+
+KyrieFugaAltoLyrics = \lyricmode {
+	Ky -- ri -- %76
+	e e --
+	lei --
+	son, e --
+	lei -- %80
+	son, e --
+	lei --
+	son,
+	e -- lei -- _
+	_ _ _ %85
+	_ _ _ _
+	_ _ _
+	_ _ _
+	_
+	_ _ _ _ %90
+	son, e --
+	lei --
+	son, e --
+	lei --
+	son, e -- %95
+	lei --
+	son, Ky --
+	ri -- e e --
+	lei --
+	son, %100
+
+	Ky -- ri -- %104
+	e e -- %105
+	lei --
+	son, e --
+	lei --
+	son, e --
+	lei -- _ _ _ %110
+	_ _
+	son, e --
+	lei -- _ _ _
+	_ _
+	son, Ky -- %115
+	ri -- e e --
+	lei --
+	son, e --
+	le -- i --
+	son, e -- %120
+	lei -- _
+	_
+	son, e -- lei -- _
+	_ _ _
+	_ _ _ _ %125
+	son, e --
+	lei --
+	son, e --
+	lei --
+	son, e -- %130
+	lei --
+	son, e --
+	lei --
+	son,
+
+	e -- %141
+	lei -- _ _
+	_ _ _ _
+	_ _ _
+	_ _ %145
+	_ _
+	_ _
+	_ son,
+
+	Ky -- ri -- %150
+	e e --
+	lei --
+	son, e --
+	lei --
+	son, e -- %155
+	lei --
+	son, e -- lei -- _
+	_ _
+	_ _ _
+	_ _ _ _ %160
+	_ _ _
+	_ _ _
+	_
+	son, Ky --
+	ri -- e %165
+	e -- lei --
+	son,
+
+	e --
+	lei -- %170
+	_
+	son,
+	Ky -- ri --
+	e e --
+	_ %175
+	lei --
+	son, e --
+	lei -- son,
+	Ky -- ri --
+	e __ e -- %180
+	lei -- son,
+	e --
+	lei --
+	son, e --
+	lei -- %185
+	son, e -- lei --
+	son. %187 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -81,3 +81,77 @@ ChristeClarinoI = {
 		e2 r\fermata \bar "||" %68 finis
 	}
 }
+
+KyrieFugaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoKyrieFuga
+			\set Score.currentBarNumber = #69
+		R1*21 %89
+		g''2.\fE g4 %90
+		g2 g
+		e a
+		\pao d, g
+		e a
+		d, e %95
+		f1
+		e2 g
+		g e
+		f d
+		e2. e4 %100
+		f2 d
+		e r
+		R1
+		r2 e
+		e r %105
+		R1*3
+		e2. e4
+		e2 r %110
+		R1*12 %122
+		r4 d e d
+		e d e d
+		\pa c d2 d4 \pd %125
+		d2 r
+		R1
+		d2 e
+		f4 e8 f g4 f
+		e2 r %130
+		R1*4
+		r2 g %135
+		a g
+		f1
+		e4^\critnote g a g
+		f1
+		e2 g~ %140
+		g4 g a g
+		f g2 f4
+		e g a g
+		f g2 f4
+		e1 %145
+		R1*4
+		g2. g4 %150
+		g2 g
+		\pa a4 fis d fis
+		g2. g4
+		a fis d fis
+		g2 \pd g %155
+		f!2. g8 f
+		e1
+		R1*12 %169
+		r4 g g g %170
+		f2. f4
+		e2 g
+		a4 g g2
+		r d
+		e2. e4 %175
+		f2 d
+		e r
+		R1*4 %181
+		d2 e
+		d2. d4
+		c2 g'
+		f d %185
+		e4 e d2
+		c r\fermata \bar "|." %187 finis
+	}
+}

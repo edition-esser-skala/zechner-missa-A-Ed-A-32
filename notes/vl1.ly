@@ -36,6 +36,128 @@ KyrieViolinoI = {
 	}
 }
 
+KyrieFugaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoKyrieFuga
+			\set Score.currentBarNumber = #69
+		c'2.\fE c4
+		c2 c %70
+		d4 h g h
+		c2. c4
+		d h g h
+		c2 h
+		a1 %75
+		g
+		r4 h e d
+		c d2 c4
+		h g e' d
+		c d2 c4 %80
+		h g \once \tieDashed c2~
+		c h
+		c e~
+		e4 e e e
+		a, d h d %85
+		g,2 e'
+		a,4 d h d
+		g, a h2
+		c2. c4
+		h e d c %90
+		h1
+		R1*5 %96
+		c2. c4
+		c2 c
+		d4 h g h
+		c2. c4 %100
+		d h g h
+		c a f a
+		h gis e gis
+		a1
+		r4 c f e %105
+		d e2 d4
+		c a f' e
+		d e2 d4
+		c2 c~
+		c4 c c c %110
+		d h e d
+		c a r c
+		h2 e~
+		e dis
+		e h~ %115
+		h4 h c h
+		a h2 a4
+		g h c h
+		a h2 a4
+		g a2 g4 %120
+		fis d g2~
+		g fis
+		g4 h c h
+		c h h2
+		a2. a4 %125
+		g2 r4 h
+		a1
+		g2 g
+		a d
+		g, e' %130
+		d4 h e, h'
+		c d \once \tieDashed e2~
+		e d
+		e1
+		c2. c4 %135
+		c2 c
+		d4 h g h
+		c2. c4
+		d h g h
+		c2 e~ %140
+		e4 e e e
+		a, d h d
+		g,2 e'
+		a,4 d h d
+		g,2 e' %145
+		f4 g2 f4
+		e f2 e4
+		d e2 d4
+		c d2 c4
+		h g h d %150
+		g2 g,
+		R1
+		r2 h
+		c4 a fis a
+		h d e2 %155
+		d1
+		c4 e f e
+		f2 e
+		d1
+		c2 e %160
+		a,4 d h d
+		g,2 a
+		b1
+		a2 c~
+		c4 c b a %165
+		b g e g
+		a2. a4
+		b g e g
+		a2 r
+		R1*2 %171
+		c2. c4
+		c2 c
+		d4 h g h
+		c2. c4 %175
+		d h g h
+		c2. e4
+		f g2 f4
+		e f2 e4
+		d e2 d4 %180
+		c d2 c4
+		h g c2~
+		c h
+		c2. c4
+		d h g h %185
+		c c c h
+		c2 r\fermata \bar "|." %187 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

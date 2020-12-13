@@ -29,3 +29,66 @@ KyrieTimpani = {
     c c g g c4 r\fermata \bar "||" %25 finis
 	}
 }
+
+KyrieFugaTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \tempoKyrieFuga
+			\set Score.currentBarNumber = #69
+		R1*21 %89
+		g2.\fE g4 %90
+		g2 r
+		R1
+		g2 r
+		R1
+		g2 c %95
+		c g
+		c1
+		R
+		r2 g
+		c r %100
+		r g
+		c r
+		R1*20 %122
+		g2. g4
+		g2 r
+		R1 %125
+		g2 r
+		R1
+		g2 c
+		c g
+		c r %130
+		R1*9 %139
+		c2. c4 %140
+		c2 c
+		r g
+		c r
+		r g
+		c r %145
+		R1*4
+		g2. g4 %150
+		g1
+		R
+		g2 r
+		R1
+		g2 c %155
+		c g
+		c r
+		R1*12 %169
+		r2 c %170
+		c g
+		c r
+		c r
+		r g
+		c r %175
+		r g
+		c r
+		R1*4 %181
+		g2 c
+		g1
+		c2 r
+		r g %185
+		c4 c g2
+		c r\fermata \bar "|." %187 finis
+	}
+}

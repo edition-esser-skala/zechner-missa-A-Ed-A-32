@@ -161,6 +161,272 @@ ChristeBassFigures = \figuremode {
 	<[5!] _+>1 %68 finis
 }
 
+KyrieFugaOrgano = {
+	\relative c {
+		\clef treble
+		\key c \major \time 2/2 \tempoKyrieFuga
+			\set Score.currentBarNumber = #69
+		\mvTr c''2.\fE-\tutti c4
+		c2 c %70
+		d4 h g h
+		c2. c4
+		d h g h
+		c2 h
+		a1 %75
+		<< {
+			g
+			r4 h e d
+			c d2 c4
+			h h e d
+			c d2 c4 %80
+			h2 c
+			c h
+		} \\ {
+			g2. g4
+			g2 g
+			a4 fis d fis
+			g2. g4
+			a fis d fis %80
+			g2 e
+			d1
+		} >>
+		\clef "treble_8" c2. c4
+		c2 c
+		d4 h g h %85
+		c2. c4
+		d h g h
+		c2 h
+		a1
+		\clef bass g2. g4 %90
+		g2 g
+		a4 fis d fis
+		g2. g4
+		a fis d fis
+		g2 e %95
+		d1
+		c
+		r4 e a g
+		f g2 f4
+		e c a' g %100
+		f g2 f4
+		e f2 e4
+		d e2 d4
+		c a c e
+		a2 \clef treble << {
+			f''4 e %105
+			d e2 d4
+			c a f' e
+			d e2 d4
+		} \\ {
+			a2 %105
+			h4 gis e gis
+			a2. a4
+			h gis e gis
+		} >>
+		\clef bass a,2. a4
+		a2 a %110
+		h4 gis e gis
+		a2 a~
+		a4 g! fis e
+		h1
+		e %115
+		\clef "treble_8" e'2 e
+		fis4 dis h dis
+		e2. e4
+		fis dis h dis
+		e cis a cis %120
+		d2 h
+		a1
+		\clef bass g2. g4
+		g2 g
+		a4 fis d fis %125
+		g2. g4
+		a fis d fis
+		g2 e
+		d1
+		c2 c' %130
+		g gis
+		a2. g4
+		f1
+		e
+		\clef treble c''2. c4 %135
+		c2 c
+		d4 h g h
+		c2. c4
+		d h g h
+		\clef bass c,,2. c4 %140
+		c2 c
+		d4 h g h
+		c2. c4
+		d h g h
+		c2 c' %145
+		d4 h g h
+		c a f a
+		h g e g
+		a fis d fis
+		g1 %150
+		r4 h, e d
+		c d2 c4
+		h g e' d
+		c d2 c4
+		h g \once \tieDashed c2~ %155
+		c h
+		c1
+		\clef "treble_8" c'2 c
+		d4 h g h
+		c2. c4 %160
+		d h g h
+		c2 a
+		g1
+		\clef bass f2. f4
+		f2 f %165
+		g4 e c e
+		f2. f4
+		g e c e
+		f f a h!
+		c g \once \tieDashed c2~ %170
+		c h
+		c r
+		r r4 e,
+		f g2 f4
+		e c a' g %175
+		f g2 f4
+		e c c'2
+		d4 h g h
+		c a f a
+		h g e g %180
+		a f d f
+		g2 c,
+		g1
+		c2 e
+		f g %185
+		e4 c g2
+		c r\fermata \bar "|." %187 finis
+	}
+}
+
+KyrieFugaBassFigures = \figuremode {
+	r1 %69
+	r %70
+	r
+	r
+	r
+	r
+	r %75
+	r
+	r
+	r
+	r
+	r %80
+	r
+	r
+	r
+	<5>2 <6>4 <5>
+	r4 <[6]>2 <6 5>4 %85
+	<5>2 <6>4 <5>
+	r4 <[6]>2 <6 5>4
+	\bo <[5]> \bc <[6]> <6>2
+	<7> <6\\>
+	<5 3>4 <6 4> <5 3> <4 2> %90
+	<5 3>2 <6>4 <[5]>
+	r \bo <[6]> \bc <[_+]> <6 5>
+	<5>2 <6>4 <[5]>
+	r \bo <[6]> \bc <[_+]> <6 5>
+	r2 <6> %95
+	<7> <6>
+	r1
+	r4 \bo <[6]>2 \bc <[2]>4
+	<6 5>2. <[4 3]>4
+	<6>2. <[2]>4 %100
+	<6 5>2. <[2]>4
+	<6 5>2. <[2]>4
+	<6 5>4 <_+>2 <[\t]>4
+	<6>1
+	r %105
+	r
+	r
+	r
+	r
+	<5>2 <6>4 <5> %110
+	r \bo <[6 \l]> <_+> \bc <[6 5]>
+	<5>1
+	\bo <[6+] 4+ 2>4 <6> \bc <[6\\]>2
+	\bo <[5+] 4>2 \bc <[\t] _+>
+	r1 %115
+	r2 <6>4 <5>
+	r4 \bo <[6 _+ \l]> <5+ _+> \bc <[6 5 _+]>
+	r2 \bo <6 [4]>4 \bc <5 [3]>
+	r4 \bo <[6 _+ \l]> <5+ _+> \bc <[6 5 _+]>
+	r <6> <[_+]> <5>4 %120
+	<_+>2 <6>
+	<7> <6\\>
+	<5 3> <6 4>4 <[5 3]>
+	<6 4> <5 3> <6> <5>
+	r <6> <[_+]> <5>4 %125
+	<5>2 <6>4 <5>
+	r \bo <[6]> <_+> \bc <[5]>
+	r2 <[6]>
+	\bo <[7]> \bc <[6]>
+	r1 %130
+	\bo <[5 4]>2 \bc <[6 5]>
+	r2. <[6]>4
+	<7>2 <6>
+	<_+>1
+	r %135
+	r
+	r
+	r
+	r
+	r %140
+	<5>2 <6>4 <5>
+	r \bo <[6 \l]>2 \bc <[6 5]>4
+	<5>2 <6>4 <5>
+	r \bo <[6 \l]>2 \bc <[6 5]>4
+	\bo <[5]>2 \bc <[6]> %145
+	\bo <[9]>4 \bc <[6]>2 <6 5>4
+	<9> <[6]>2 <6 5>4
+	<9> <[6]>2 <6 5>4
+	<9> \bo <[6]> \bc <[_+]> <6 5>
+	r1 %150
+	r4 <6>2 <[2]>4
+	<6> <_+>2 <[\t]>4
+	<6>2. <[2]>4
+	<6> <_+>2 <\t>4
+	<6>1 %155
+	<4 2>2 <[6 5]>
+	\bo <[5 3]> <6 4>4 \bc <[5 3]>
+	\bo <[6 4]>2 <6>4 <5>
+	r <[6]>2 <6 5>4
+	r2 <6>4 <5> %160
+	r \bo <[6 \l]>2 \bc <[6 5]>4
+	r2 <6>
+	<7 _-> <6 \t>
+	r1
+	r2 \bo <6 [4-]>4 \bc <5 [3]> %165
+	<_-> \bo <[6]>2 \bc <[5-]>4
+	r2 <6>4 <5>
+	<_-> \bo <[6]>2 \bc <[5-]>4
+	r2 \bo <[6]>4 \bc <[7]>
+	<5 4> \bassFigureExtendersOn q <5 3>2 \bassFigureExtendersOff %170
+	<4 2> <\t \t>
+	r1
+	r2. <6>4
+	<6 [5]>2. <[2]>4
+	<6>2. <[2]>4 %175
+	<6 5>2. <[4 3]>4
+	\bo <[6]>2 \bc q
+	<9>4 <[6]>2 <6 5>4
+	<9> <[6]>2 <6 5>4
+	<9> \bo <[6 \l]>2 \bc <[6 5]>4 %180
+	<9> \bo <[6 \l]>2 \bc <[6 5]>4
+	r1
+	<4>2 <3>
+	r <[6]>
+	<6 5>1 %185
+	<6>2 <4>4 <3>
+	r1 %187 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
