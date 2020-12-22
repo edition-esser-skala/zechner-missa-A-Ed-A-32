@@ -146,3 +146,103 @@ KyrieFugaTromboneII = {
 		g r\fermata \bar "|." %187 finis
 	}
 }
+
+GloriaTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \tempoGloria
+		R2.*3
+		e8\fE e e e e e
+		d d c c h c16 d %5
+		e4. e8 d d
+		c4 r r
+		R2.*7 %14
+		r8 d d d d d %15
+		d4 d8 d d d
+		d4 e8 d e d
+		d4 r r
+		r r8 h h h
+		c4 h r %20
+		r r8 h h h
+		a4 g r8 c
+		d4 e d8. d16
+		e4 r r
+		R2.*32 %56
+		r4 d\fE d8 d
+		e e c c a d
+		g,4 r c~
+		c8 h a4 h~ %60
+		h8 a g4 e'~
+		e8 d16 e c4. h8
+		c4 r r
+		R2. \noBreak
+		R \bar "|" %65
+		\time 4/4 \tempoQuiTollis \newSpacingSection r4 a b b \noBreak
+		r8 b b b a4 a
+		R1
+		r2 r4 a
+		a a r8 a a a %70
+		a4 gis r2
+		R1
+		r2 r4 g!
+		a c r e
+		e8. e16 e4 e e %75
+		r2 h4 g8 e
+		h'4 g8 e h'2
+		h4 r r2
+		R1 \noBreak
+		R \bar "||" %80
+		\tempoQuoniam R1*17 %97
+		r2 r8 e\fE d h
+		c8. c16 d8 h c c r4
+		r2 r8 e d h %100
+		c8. c16 d8 h c c c d
+		e e c a h2
+		\tempoInGloria R1*3 %105
+		r2 c
+		e a,
+		d g,
+		c4 h a2
+		g r4 c~ %110
+		c8 h16 a g8 a b a b4~
+		b8 a16 g f8 g a h c4
+		c h c e8 d
+		c4 cis d2
+		h4. a16 h c4. h8 %115
+		a4 g c d
+		h e8 d c2
+		R1*2
+		r2 c %120
+		e a,
+		d g,
+		c4 h a d
+		d c h2
+		a r4 e'~ %125
+		e8 dis16 cis h8 cis d cis d4~
+		d8 cis16 h a8 h cis dis e4
+		e dis e8 d c h
+		a4 d h e
+		cis?4. h16 cis? d8 a d4 %130
+		h a e'2
+		a, a-\critnote
+		f-\critnote r
+		R1*2 %135
+		c'2 d
+		g, c
+		f, b4^\critnote a
+		g c2 h4
+		c c4. h16 a g8-\critnote a %140
+		b-\critnote a b4. a16 g f8 g
+		a h c2 h4
+		c4. h8 a h c a
+		d4. c8 h4. a16 h
+		c4. h8 a4 g %145
+		c d g,8 a h4
+		c2 a4 \once \tieDashed d~
+		d g, g2
+		r8 c f e d4 e
+		d2 e4 r %150
+		e d c h
+		c8 c c h c4 r\fermata \bar "|." %152 finis
+	}
+}

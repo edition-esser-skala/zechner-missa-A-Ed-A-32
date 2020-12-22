@@ -369,6 +369,205 @@ KyrieFugaAltoLyrics = \lyricmode {
 	son. %187 finis
 }
 
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*3
+		\mvTr g'8\fE^\tuttiE g16 g g8 g g g
+		g g g g g g %5
+		g4. a8^\critnote a g
+		g4 r r
+		R2.*7 %14
+		r8 g g4 g %15
+		fis g8 g fis fis16 fis
+		d4 g8 g g fis
+		g4 r r
+		r r8 e e e
+		f4 e r %20
+		r r8 e e e
+		d4 c r8 g'
+		g4. a8 a g
+		g4 r r
+		R2.*11 %35
+		\mvTr g4\pE^\solo a8([ g)] f([ e)]
+		f2\trill e4
+		c'( a) g
+		fis2 g4
+		e8 g a4. g8 %40
+		fis[ a] h4. a8
+		g a fis4. g8
+		g4 r r
+		R2.*13 %56
+		r4 \mvTr g\fE^\tuttiE g8 g
+		g g a a f4
+		e r e~
+		e8 e f4 d~ %60
+		d8 d e4 r
+		g8 g16 g a4.( g16[ f)]
+		e4 r r
+		R2. \noBreak
+		R \bar "|" %65
+		\time 4/4 \tempoQuiTollis \newSpacingSection r4 e e e \noBreak
+		r8 e e e f4 f
+		\mvTr b4.\pE^\solo g8 e4 f
+		f( e) f \mvTr f\fE^\tutti
+		fis fis r8 fis fis fis %70
+		e4 e r2
+		R1
+		r2 r4 e
+		f^\critnote e r g
+		g8. g16 g4 g g %75
+		r2 fis4 g
+		fis g fis2
+		e4 r r2
+		R1 \noBreak
+		R \bar "||" %80
+		\tempoQuoniam R1*17 %97
+		r2 r8 \mvTr g\fE^\tuttiE g g
+		g8. g16 g8 g g g16 g r4
+		r2 r8 g g g %100
+		g8. g16 g8 g g g16 g g8 gis
+		a h a4 gis2
+		\tempoInGloria R1*7 %109
+		g2 a4. a8 %110
+		d,4 d g4. g8
+		c,2 f4 e
+		d2 c
+		r4 g'4. fis16[ e] d8[ e]
+		f[ e] f4. e16[ d] c8[ d] %115
+		e[ fis] g2 fis4
+		g4. f8 e[ d] e4
+		f4. e8 d[ c] d4
+		e4. d16[ e] c8[ d] e4
+		f2 e %120
+		R1*4
+		a2 c4. c8 %125
+		fis,4 fis h4. h8
+		e,2 a4 g!
+		fis2 e
+		r4 a4. gis16[ fis?] e8[ fis]
+		g[ fis] g4. fis16[ e] d8[ e] %130
+		fis[ gis] a2 g?4~
+		g f e2
+		d4 f g2
+		e4. d16[ e] f2
+		d c4 \once \tieDashed f~ %135
+		f e f2
+		R1*2
+		r2 g
+		a4. a8 d,4 d %140
+		g4. g8 c,2
+		f4 e d2
+		e r4 g~
+		g8[ fis16 e] d8[ e] f[ e] f4~
+		f8[ e16 d] c8[ d] e[ fis] \once \tieDashed g4~ %145
+		g fis g2
+		r4 c4. h16[ a] g8[ a]
+		\once \tieDashed h2~ h8[ a16 h] c8[ g]
+		a2 g4. a8
+		g2 g4 r %150
+		g g g g
+		g8 g g4 g r\fermata \bar "|." %152 finis
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis %4
+	De -- o, et in ter -- ra %5
+	pax ho -- mi -- ni --
+	bus.
+
+	Lau -- da -- mus %15
+	te, be -- ne -- di -- ci -- mus
+	te, ad -- o -- ra -- mus
+	te,
+	glo -- ri -- fi --
+	ca -- mus, %20
+	glo -- ri -- fi --
+	ca -- mus, glo --
+	ri -- fi -- ca -- mus
+	te.
+
+	Do -- mi -- ne %36
+	De -- us,
+	Rex __ coe --
+	le -- stis,
+	De -- us Pa -- _ %40
+	_ _ _
+	ter o -- mni -- po --
+	tens.
+
+	Do -- mi -- ne %57
+	De -- us, A -- gnus De --
+	i, Fi --
+	li -- us, Fi -- %60
+	li -- us,
+	Fi -- li -- us
+	Pa --
+	tris.
+
+	Qui tol -- lis %66
+	pec -- ca -- ta mun -- di:
+	Mi -- se -- re -- re
+	no -- bis. Qui
+	tol -- lis pec -- ca -- ta %70
+	mun -- di:
+
+	Qui
+	se -- des ad
+	dex -- te -- ram Pa -- tris: %75
+	Mi -- se --
+	re -- re no --
+	bis.
+
+	Cum San -- cto %98
+	Spi -- ri -- tu in glo -- ri -- a,
+	cum San -- cto %100
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, a -- men.
+
+	In glo -- ri -- %110
+	a, in glo -- ri --
+	a De -- i
+	Pa -- tris,
+	a -- _ _
+	_ _ _ _ %115
+	_ _ _
+	men, a -- _ _
+	_ _ _ _
+	_ _ _ _
+	_ men, %120
+
+	in glo -- ri -- %125
+	a, in glo -- ri --
+	a De -- i
+	Pa -- tris,
+	a -- _ _
+	_ _ _ _ %130
+	_ _ _
+	_ _
+	_ _ _
+	_ _ _
+	_ men, a -- %135
+	_ men,
+
+	in %139
+	glo -- ri -- a, in %140
+	glo -- ri -- a
+	De -- i Pa --
+	tris, a --
+	_ _ _
+	_ _ _ %145
+	_ men,
+	a -- _ _
+	_ _
+	_ _ men,
+	a -- men, %150
+	a -- men, a -- men,
+	a -- men, a -- men. %152 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

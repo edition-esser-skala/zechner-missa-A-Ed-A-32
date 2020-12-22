@@ -157,3 +157,126 @@ KyrieFugaViolinoII = {
 		c2 r\fermata \bar "|." %187 finis
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		R2.*3
+		c'16\fE e d e c8 e e e
+		h d c e d c16 d %5
+		e8 d c16 d e c d8. d16
+		e8 a,\pp a a a a
+		a a a a g g
+		g g g g fis fis
+		f f f f e e %10
+		d g, d' d d d
+		g,4 r r
+		R2.*2
+		r8 d''\f d d d d %15
+		d d d d d d
+		h d h h a a
+		g g g g g g
+		a4 g8 h h h
+		c4 h8 g g g %20
+		f4 e8 h' h h
+		a4 g8 e' e e
+		d c16 d e8 e d d
+		e c c c c c
+		h16 a g8 c c, g' a16 h %25
+		c8 h a e f g
+		c,4 r r
+		R2.*5 %32
+		r8 g'\fE a16 g a8 d c
+		h16 a h8 g' f e16 d c h
+		c h a g f e d c d4\trillE %35
+		c r r
+		R2.*3
+		g'8\p h c4. h8 %40
+		a c d4. c8
+		h4 r r
+		r8 d, d d d d
+		r e e e e e
+		r d d d d d %45
+		r a' a a a a
+		h c d4 h
+		r8 d, e4 d
+		d r r
+		g16 fis g8 e g a16 g a8 %50
+		a g fis d' d4
+		d r r
+		R2.
+		r8 d\fE e16 d e8 a g
+		fis16 e fis8 d' c h16 a g fis %55
+		g fis e d c h a g a4\trill
+		g8 h h h h h
+		c c c16 c d e f4
+		e4 e4. d8
+		c4 d4. c8 %60
+		h4 c8 d e4~
+		e8 d16 e c8 c c h
+		c4 r r
+		R2. \noBreak
+		r4 r8 e d4 \bar "|" %65
+		\time 4/4 \tempoQuiTollis e4 c cis2 \noBreak
+		r8 cis cis cis d8. e16 f4
+		b,8\p b b b b b a a
+		g g g g a4 a~\f
+		a8 a a4 r8 a a a %70
+		a4 gis h8\p h h h
+		c c c c a a a a
+		a4. gis8 a4 g\f
+		a8. a16 g4 e'8-! c-! r e-!
+		e-! cis-! r e e-! cis-! e-! cis-! %75
+		d4 a4. a8 g4
+		fis8 fis g g fis2\trill
+		e8 g-!\pE a-! g-! r fis-! g-! fis-!
+		r e fis e dis4 e \noBreak
+		e dis e2 \bar "||" %80
+		\tempoQuoniam R1*17 %97
+		r2 r8 e'\fE d h
+		c e d h c4 r
+		r2 r8 e d h
+		g e' d h c16 g c e c8 d
+		c16 d e4 d8 e2
+		\tempoInGloria R1*10 %112
+		r2 c
+		e4. e8 a,4 a
+		d4. d8 g,2 %115
+		c4 h a2\trillE
+		g r4 c~
+		c8 h16 a g8 a b a b4~
+		b8 a16 g f8 g a h c4~
+		c h c g~ %120
+		g8 a h4 c2
+		a h
+		g8 a h4 c h8 a
+		gis4 a2 gis4
+		a2 r %125
+		R1*2
+		r2 e'
+		f4. f8 h,4 h
+		e4. e8 a,2 %130
+		d4 c h8 e, e' d
+		cis a d2 cis4
+		r d4. cis16 h a8 h
+		c h c4. h16 a g8 a
+		b? a b?2 a4 %135
+		g2 f4 a
+		b2 g
+		a4 f'8 e! d c c4
+		h!8 c d e d2
+		c r %140
+		R1*2
+		c2 e4. e8
+		a,4 a d4. d8
+		g,2 c4 h %145
+		a2 g4 g'~
+		g8 f16 e d8 e f e f4~
+		f8 e16 d c8 d e d e4~
+		e8 a, d c h g c4
+		c h c16 c, d e f g a h %150
+		c c c c d d d d e e e e d d d d
+		e8 e d4 e r\fermata \bar "|." %152 finis
+	}
+}

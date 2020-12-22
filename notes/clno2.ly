@@ -107,3 +107,70 @@ KyrieFugaClarinoII = {
 		e r\fermata \bar "|." %187 finis
 	}
 }
+
+GloriaClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		R2.*3
+		e'8\fE e e e e e
+		d4 e8 e d c16 d %5
+		e8 d c c g g16 g
+		e4 r r
+		R2.*7 %14
+		r8 d' d d d d %15
+		d4 d8 d d d
+		d4 e8 d e d
+		d4 r r
+		R2.*3 %21
+		r4 r8 e e e
+		d d c c g g16 g
+		e4 r r
+		R2. %25
+		r4 r8 c' g g16 g
+		e4 r r
+		R2.*29 %56
+		r8 d'\fE d d d d
+		e d c c d g,
+		c4 r r
+		r r g %60
+		g e'8 d c4
+		r r8 c g8. g16
+		e4 r r
+		R2. \noBreak
+		r4 r8 e' d4 \bar "|" %65
+		\time 4/4 \tempoQuiTollis e4 r r2 \noBreak
+		R1*14 \bar "||" %80
+		\tempoQuoniam R1*18 %98
+		r2 r8 e\fE d c16 d
+		e8 e d c16 d e4 r %100
+		r8 g, g g16 g g4 r
+		R1
+		\tempoInGloria R1*8 %110
+		r8 g g g c d e4
+		r c d8 g, c4
+		g4. g8 e4 r
+		R1*3 %116
+		r8 d' e e c4 r
+		R1
+		r8 e e e c d e c
+		d g, g g c2 %120
+		R1*3
+		r4 e, e4. e8
+		e2 r %125
+		R1*13 %138
+		r2 r8 d' d d
+		e4 c g r %140
+		r8 c c c c4 r
+		d8 g, c4 g4. g8
+		e4 r r2
+		R1*2 %145
+		r2 r8 d' e e
+		c4 r r8 d d d
+		g,4 r r8 e' e e
+		e4 d8 c d4 e
+		d4. d8 e4 r %150
+		g, g8 g g4 g8 g
+		g g g g16 g e4 r\fermata \bar "|." %152 finis
+	}
+}

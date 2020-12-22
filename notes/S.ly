@@ -386,6 +386,220 @@ KyrieFugaSopranoLyrics = \lyricmode {
 	son. %187 finis
 }
 
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*3
+		\mvTr c'8\fE^\tuttiE c16 c c8 c c c
+		d d e e d d %5
+		c4. c8 c h
+		c4 \mvTr e\pE^\soloE f
+		dis2 e4
+		\appoggiatura d cis2 d4
+		\appoggiatura c h2 c4 %10
+		c8 h16([ c)] a2
+		g4 r r
+		R2.*2
+		r8 \mvTr h\fE^\tuttiE h4 h %15
+		a h8 h a a16 a
+		h4 h8 h a a
+		h4. d8 g e
+		f!4 e r
+		r r8 e e e %20
+		d4 c r
+		r r8 e e e
+		d4.( c4) h8
+		c4 r r
+		R2.*32 %56
+		r4 \mvTr h\fE^\tuttiE h8 h
+		c c c c c([ h)]
+		c4 e4. d8
+		c4 d4.( c8) %60
+		h4 g'4. f16 g
+		e4.( d16[ c] d4)\trill
+		c r r
+		R2. \noBreak
+		R \bar "|" %65
+		\time 4/4 \tempoQuiTollis \newSpacingSection r4 c cis cis \noBreak
+		r8 cis cis cis d4 d
+		R1
+		r2 r4 c
+		c c r8 c c c %70
+		c4 h r2
+		R1
+		r2 r4 c
+		a g r c
+		cis8. cis16 cis4 cis cis %75
+		r f8 e dis4 e
+		dis8 dis e e e4( dis)
+		e r r2
+		R1 \noBreak
+		R \bar "||" %80
+		\tempoQuoniam R1*3
+		r2 \mvTr c16([\pE^\solo d)] e([ f)] g8 c,
+		d c r c d e f4 %85
+		e r r8 e c a
+		d4~ d16[ g fis g] c,4. h16[ a]
+		h[ d c d] h[ d c d] e[ c d e] a,8.\trill g16
+		g4 r r2
+		R1 %90
+		g16([ a)] h([ c)] d8 g, a g r g
+		a16([ g)] a([ h)] \appoggiatura d8 c8. h16 h8 e f! e
+		r e f e r e d c
+		r c d e f4. e16 d
+		e8 d16([ c)] \appoggiatura c8 h4^\critnote c r %95
+		R1*2
+		r2 r8 \mvTr c\fE^\tutti d d
+		e8. e16 d8 d e e16 e r4
+		r2 r8 c d d %100
+		e8. e16 d8 d e e16 e e8 d
+		c16([ d)] e8 e([ d)] e2
+		\tempoInGloria R1*10 %112
+		r2 c
+		e4. e8 a,4 a
+		d4. d8 g,2 %115
+		c4 h a2
+		g r4 c~
+		c8[ h16 a] g8[ a] b[ a] b4~
+		b8[ a16 g] f8[ g] a[ h] c4~
+		c h c g~ %120
+		g8[ a] h4 c2
+		a h
+		g8[ a] h4 c h8[ a]
+		gis4 a2 gis4
+		a2 r %125
+		R1*2
+		r2 e'
+		f4. f8 h,4 h
+		e4. e8 a,2 %130
+		d4 c h8 e, e'[ d]
+		cis[ a] d2 cis4
+		r d4. cis16[ h] a8[ h]
+		c[ h] c4. h16[ a] g8[ a]
+		b[ a] b2 a4 %135
+		g2 f4 a
+		b2 g
+		a4 f'8([ e!] d[ c)] c4
+		h!8([ c d e] d2)
+		c r %140
+		R1*2
+		c2 e4. e8
+		a,4 a d4. d8
+		g,2 c4 h %145
+		a2 g4 g'~
+		g8[ f16 e] d8[ e] f[ e] f4~
+		f8[ e16 d] c8[ d] e[ d] e4~
+		e8[ a, d c] h4 c
+		c( h) c r %150
+		c d e d
+		e8 e d4 c r\fermata \bar "|." %152 finis
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis %4
+	De -- o, et in ter -- ra %5
+	pax ho -- mi -- ni --
+	bus bo -- nae
+	vo -- lun --
+	ta -- tis,
+	bo -- nae %10
+	vo -- lun -- ta --
+	tis.
+
+	Lau -- da -- mus %15
+	te, be -- ne -- di -- ci -- mus
+	te, ad -- o -- ra -- mus
+	te, glo -- ri -- fi --
+	ca -- mus,
+	glo -- ri -- fi -- %20
+	ca -- mus,
+	glo -- ri -- fi --
+	ca -- mus
+	te.
+
+	Do -- mi -- ne %57
+	De -- us, A -- gnus De --
+	i, Fi -- li --
+	us Pa -- %60
+	tris, Fi -- li -- us
+	Pa --
+	tris.
+
+	Qui tol -- lis %66
+	pec -- ca -- ta mun -- di:
+
+	Qui
+	tol -- lis pec -- ca -- ta %70
+	mun -- di:
+
+	Qui
+	se -- des ad
+	dex -- te -- ram Pa -- tris: %75
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re no --
+	bis.
+
+	Quo -- ni -- am tu %84
+	so -- lus, tu so -- lus san -- %85
+	ctus, tu so -- lus
+	Do -- _ _
+	_ _ _ _ mi --
+	nus,
+	%90
+	quo -- ni -- am tu so -- lus, tu
+	so -- lus Do -- mi -- nus, tu so -- lus,
+	tu so -- lus, tu so -- lus,
+	so -- lus al -- tis -- si -- mus,
+	Je -- su Chri -- ste. %95
+
+	Cum San -- cto %98
+	Spi -- ri -- tu in glo -- ri -- a,
+	cum San -- cto %100
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, a -- men.
+
+	In %113
+	glo -- ri -- a, in
+	glo -- ri -- a %115
+	De -- i Pa --
+	tris, a --
+	_ _ _
+	_ _ _
+	_ men, a -- %120
+	_ _
+	men, a --
+	_ _ _ _
+	_ _ _
+	men, %125
+
+	in %128
+	glo -- ri -- a, in
+	glo -- ri -- a %130
+	De -- i Pa -- tris, a --
+	_ _ men,
+	a -- _ _
+	_ _ _ _
+	_ _ _ %135
+	_ men, a --
+	_ _
+	men, a -- men,
+	a --
+	men, %140
+
+	in glo -- ri -- %143
+	a, in glo -- ri --
+	a De -- i %145
+	Pa -- tris, a --
+	_ _ _
+	_ _ _
+	_ men,
+	a -- men, %150
+	a -- men, a -- men,
+	a -- men, a -- men. %152 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
