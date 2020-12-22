@@ -692,7 +692,67 @@ CredoSopranoLyrics = \lyricmode {
 	est. %45 finis
 }
 
+CrucifixusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/2 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #49
+		R1.*15 %63
+		\mvTr d'2.(\pE^\soloE e4) f2
+		cis1 d2 %65
+		b!2. d4 c b
+		a( g) f2 f'
+		f( e4) d e cis?
+		f2 d a~
+		a g f %70
+		e cis' d
+		g, e2. d4
+		d2^\critnote r r
+		R1.*6 %79
+		r2 d' d %80
+		h1.
+		c1 es2
+		d2. c4 b! a
+		b( a) g2 r
+		R1. %85
+		r2 d' d
+		d4( c) c2 c~
+		c4 b b2 b~
+		b a g
+		es' d4( c) b2 %90
+		a a2. g4
+		g1 r2
+		R1.*7 %99
+		R1.\fermataMarkup \bar "||" %100 finis
+	}
+}
 
+CrucifixusSopranoLyrics = \lyricmode {
+	Cru -- ci -- %64
+	fi -- xus %65
+	e -- ti -- am pro
+	no -- bis sub
+	Pon -- ti -- o Pi --
+	la -- to, pas --
+	_ sus, %70
+	pas -- sus et
+	se -- pul -- tus
+	est.
+
+	Cru -- ci -- %80
+	fi --
+	xus sub
+	Pon -- ti -- o Pi --
+	la -- to,
+	%85
+	pas -- sus,
+	pas -- sus, pas --
+	_ sus, pas --
+	_ sus,
+	pas -- sus et %90
+	se -- pul -- tus
+	est. %92 finis
+}
 
 % SopranoNotes = {
 % 	\relative c' {

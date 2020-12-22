@@ -652,6 +652,82 @@ CredoAltoLyrics = \lyricmode {
 	est. %45 finis
 }
 
+CrucifixusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/2 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #49
+		R1.*9 %57
+		\mvTr g'2.(\pE^\soloE  a4) b2
+		fis1 g2
+		es2. g4 f es %60
+		d( c) b2 b'
+		a2. cis,4 d2
+		g e1
+		d r2
+		R1.*2 %66
+		r2 r a'
+		g2. b4 a g
+		f( e) f2 \once \tieDashed f~
+		f e d %70
+		cis e d
+		e4( d) cis2. cis4
+		d2 r r
+		R1.*4 %77
+		r2 a' a
+		fis1.
+		g2 r r %80
+		d2. d4 d d
+		es( d) c2 r
+		R1.
+		r2 r b'
+		a2. g4 f e? %85
+		f( e) d2 r
+		es1.
+		d2 d1~
+		d2 c b
+		a fis' g %90
+		g g2. fis4
+		g2 r r
+		R1.*7 %99
+		R1.\fermataMarkup \bar "||" %100 finis
+	}
+}
+
+CrucifixusAltoLyrics = \lyricmode {
+	Cru -- ci -- %58
+	fi -- xus
+	e -- ti -- am pro %60
+	no -- bis sub
+	Pon -- ti -- o
+	Pi -- la --
+	to,
+
+	sub %67
+	Pon -- ti -- o Pi --
+	la -- to, pas --
+	_ sus, %70
+	pas -- sus et
+	se -- pul -- tus
+	est.
+
+	Cru -- ci -- %78
+	fi --
+	xus %80
+	e -- ti -- am pro
+	no -- bis
+
+	sub
+	Pon -- ti -- o Pi -- %85
+	la -- to,
+	pas --
+	sus, pas --
+	_ sus,
+	pas -- sus et %90
+	se -- pul -- tus
+	est. %92 finsi
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

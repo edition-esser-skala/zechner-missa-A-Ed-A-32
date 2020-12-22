@@ -848,6 +848,121 @@ CredoBassFigures = \figuremode {
 	<_-> <[6]> <6 5 [_-]> <_!> <[_-]>2 %48 finis
 }
 
+CrucifixusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/2 \tempoCrucifixus
+			\set Score.currentBarNumber = #49
+		\mvTr g'1.\pE-\solo
+		a4 d, d' c b a %50
+		g1 a2
+		b b, r
+		r4 b' d c d b
+		a d, d' c b a
+		b1. %55
+		a2 d,4 c b2
+		c d d,
+		g r g'
+		a d, b'4 a
+		g2 a f %60
+		b b, g'
+		g a4 g f2
+		g a a,
+		d1 r2
+		a'4 g f e d2 %65
+		g e? c
+		f a f
+		c1 cis2
+		d1 r2
+		d2 g,1 %70
+		a2 a'4 g f2
+		g a a,
+		d1.
+		e4 a, a' g f d-\critnote
+		g2-\critnote cis,1 %75
+		d1.
+		g2 a a,
+		d1 r2
+		c! c c
+		b g r %80
+		f' f f
+		c c'1
+		fis,2 d fis
+		g b g
+		cis, a cis %85
+		d d d
+		d1.-\tasto
+		d1 g,2
+		c^\critnote r c
+		fis d g %90
+		c, d d,
+		g b g
+		c1 a2
+		b b' r
+		r4 b d c d b %95
+		a d, d' c b a
+		b a g2. b4
+		a2 d,4 c b2
+		c d d,
+		g1.\fermata \bar "||" %100 finis
+	}
+}
+
+CrucifixusBassFigures = \figuremode {
+	r1. %49
+	<6\\>2 <_+> <6> %50
+	<6->1 <[6]>2
+	r1.
+	r4 <5> r1
+	<6\\>2 <_+>1
+	<6>1. %55
+	r2 <_+> <6>
+	\bo <[5]>4 \bc <[6]> <4>2 <_+>
+	r1.
+	<6\\>2 <[_+]> <6>
+	<[6]>1. %60
+	r
+	<4+ 2>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff <[6]>2
+	r \bo <[5!] 4> \bc <[\t] _+>
+	r1.
+	\bo <[5!] _+>2. \bassFigureExtendersOn \bc q4 \bassFigureExtendersOff r2 %65
+	r \bo <[7]> \bc <[_!]>
+	r <[6]>1
+	<4>2 <_!> \bo <6 [_!]>4 \bc <5 [\t]>
+	<9>2 <8>1
+	r2 \bo <[8] 6!> \bc <[7] 5> %70
+	<[5!] _+>1 <[6]>2
+	\bo <[6!]>4 <5> <5! 4>2 \bc <[\t] _+>
+	r1.
+	<6\\>2 \bo <[_+]> \bc <[6]>
+	r \bo <6 [_!]> \bc <5 [\t]> %75
+	r1.
+	\bo <[6!]>2 <5! 4> \bc <[\t] _+>
+	r1.
+	<6 4+ _->
+	<6> %80
+	<6 4! 2->
+	r
+	\bo <[6]>2 <_+> \bc <[6]>
+	r <[6]>1
+	\bo <6 [_!]>1 \bassFigureExtendersOn \bc q2 \bassFigureExtendersOff %85
+	r1.
+	r
+	r1 <5>2
+	\bo <[9 7]> <8 6> \bc <[7 5]>
+	<7-> <[_+]>1 %90
+	<[6 5]>2 <4> <_+>
+	r <[6]>1
+	r <[6 5]>2
+	r1.
+	r %95
+	<6\\>1 \bassFigureExtendersOn q4 q \bassFigureExtendersOff
+	<[6]>1.
+	r2 <_+> <[6]>
+	\bo <[6]>2 \bc <[_+]>1
+	r1. %100 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

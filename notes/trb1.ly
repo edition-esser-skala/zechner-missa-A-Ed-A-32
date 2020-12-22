@@ -340,3 +340,51 @@ CredoTromboneI = {
 		R1\fermataMarkup \bar "||" %48 finis
 	}
 }
+
+CrucifixusTromboneI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/2 \tempoCrucifixus
+			\set Score.currentBarNumber = #49
+		g'2.-\solo a4 b2
+		fis1 g2 %50
+		es4 d es g f es
+		d c b c d es
+		f1.
+		fis
+		g4 fis g b a g %55
+		c2 fis, g~
+		g4 a fis1\trill
+		g r2
+		R1.*5 %63
+		f2. g4 a2
+		e1 f2 %65
+		d1 e2\trill
+		f r r
+		R1.*5 %72
+		d2. e4 f2
+		cis1 d2
+		g4 b a g f e %75
+		f a g f e d
+		e f \appoggiatura d2 cis1\trillE
+		d r2
+		es! es es
+		d r r %80
+		as' as as
+		g4 f es d c2
+		R1.
+		d
+		e %85
+		f2. e4 d2
+		R1.*5 %91
+		r2 g4 f! es d
+		es g f es d c
+		d c b c d es
+		f1.
+		fis
+		g2. b4 a g
+		c2 fis, g
+		a4 b fis1
+		g1.\fermata \bar "||"
+	}
+}
