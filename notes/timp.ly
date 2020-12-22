@@ -156,3 +156,33 @@ GloriaTimpani = {
 		c8 c g4 c r\fermata \bar "|." %152 finis
 	}
 }
+
+CredoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoCredo
+		c4\fE g c g8 c
+		c c g4 c r
+		R1
+		r2 g8 c r4
+		r2 g4 c %5
+		g4. g8 c4 r
+		c g8 c g4 r8 g
+		c4 r r2
+		R1*9 %17
+		r2 g8\fE c g g16 g
+		c4 r r2
+		R1*8 %27
+		r2 c4\fE r
+		c r r2
+		R1*10 %39
+		c4 g c r %40
+		R1
+		r4 g c r
+		R1
+		g4 c g4. g8
+		c4 r r2 %45
+		R1*2
+		R1\fermataMarkup \bar "||" %48 finis
+	}
+}

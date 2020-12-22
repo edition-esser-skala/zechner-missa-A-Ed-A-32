@@ -568,6 +568,90 @@ GloriaAltoLyrics = \lyricmode {
 	a -- men, a -- men. %152 finis
 }
 
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr g'4\fE^\tutti g g g8 g
+		a a g4 g r
+		r2 r8 g a a
+		g g r a g g r4
+		a8 g f g16 a g8 g g f16([ e)] %5
+		d4. d8 e4 r
+		g g8 g a a g4
+		g \mvTr e8\pE^\soloE e e e e d
+		e4 r r a8 g
+		f8.([ e16)] d4 r g8 f16 f %10
+		e8 e e d16([ c)] d4.\trill d8
+		c4 r r2
+		R1*2
+		r2 r4 \mvTr e8.\fE^\tuttiE e16 %15
+		e8^\critnote e a4 gis e8 f
+		f g g a f g e f
+		d e c4 d8 e16 e d8 d
+		e4 r r2
+		R1*8 %27
+		r2 \tempoEtIncarnatus \mvTr g\fE^\tuttiE
+		g4 g f4. f8
+		es2 r %30
+		R1*2
+		g2 g4 g
+		f4. f8 es4 g
+		g8. g16 g4 g f %35
+		f4. f8 f4 f
+		f es d f
+		g as f g
+		es8 es es d es4 r
+		es d es8 es r g %40
+		g4 f8 f f4 es
+		es d c r
+		r r8 f g4 a!
+		g g g4. g8
+		g4 r r2 %45
+		R1*2
+		R1\fermataMarkup \bar "||" %48 finis
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+	Cre -- do, cre -- do in
+	u -- num De -- um,
+	fa -- cto -- rem
+	coe -- li et ter -- rae,
+	vi -- si -- bi -- li -- um et in -- vi -- si -- %5
+	bi -- li -- um.
+	Cre -- do in u -- num De --
+	um. Et in u -- num Do -- mi --
+	num Je -- sum
+	Chri -- stum, Fi -- li -- um %10
+	De -- i u -- ni -- ge -- ni --
+	tum.
+
+	Ge -- ni -- %15
+	tum non fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem Pa -- tri, per quem
+	o -- mni -- a, o -- mni -- a fa -- cta
+	sunt.
+
+	Et %28
+	in -- car -- na -- tus
+	est, %30
+
+	et in -- car -- %33
+	na -- tus est de
+	Spi -- ri -- tu San -- cto %35
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et
+	ho -- mo, ho -- mo,
+	ho -- mo fa -- ctus est,
+	ex Ma -- ri -- a, Ma -- %40
+	ri -- a, M -- ri -- a
+	Vir -- gi -- ne,
+	et ho -- mo,
+	ho -- mo fa -- ctus
+	est. %45 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

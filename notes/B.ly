@@ -457,6 +457,90 @@ GloriaBassoLyrics = \lyricmode {
 	a -- men, a -- men. %152 finis
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr c'4\fE^\tuttiE h c g8 e
+		f d g4 c, r
+		r2 r8 g' g f!
+		f e r d16([ c)] h8 c r4
+		f8 e d e16 f g8 f e d16([ c)] %5
+		g'4. g,8 c4 r
+		c' g8 e f d g4
+		c, r r2
+		R1*2 %10
+		r2 r4 \mvTr g'8\pE^\solo g
+		e d16([ c)] a'4 g c8 c
+		c h16([ a)] h4 r8 a f e
+		d4. e16 f g8[ f e d]
+		c[ f g] g, c4 \mvTr a'8.\fE^\tutti a16 %15
+		gis8 a f4 e a8 a
+		h h c c c h h a
+		a g g f f e16 f g8 g,
+		c4 r r2
+		R1*8 %27
+		r2 \tempoEtIncarnatus \mvTr c\fE^\tutti
+		c4 c f d
+		es2 r %30
+		R1*2
+		es2 es4 es
+		es d es es
+		c8. c16 e4 f f %35
+		f4. es8 d4 b?
+		es4. es8 b4 b'
+		b as as g
+		as8 f b b, es4 r
+		c h! c8 c r c %40
+		f4 d8 d es4 c
+		d h! c r
+		r r8 d es e f fis
+		g g \appoggiatura f16 es8 d16([ c)] g4. g8
+		c4 r r2 %45
+		R1*2
+		R1\fermataMarkup \bar "||" %48 finis
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	Cre -- do, cre -- do in
+	u -- num De -- um,
+	fa -- cto -- rem
+	coe -- li et ter -- rae,
+	vi -- si -- bi -- li -- um et in -- vi -- si -- %5
+	bi -- li -- um.
+	Cre -- do in u -- num De --
+	um.
+
+	Et ex %11
+	Pa -- tre na -- tum an -- te
+	o -- mni -- a, o -- mni -- a
+	sae -- cu -- la, sae --
+	_ cu -- la. Ge -- ni -- %15
+	tum non fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem Pa -- tri, per quem
+	o -- mni -- a, quem o -- mni -- a fa -- cta
+	sunt.
+
+	Et %28
+	in -- car -- na -- tus
+	est, %30
+
+	et in -- car -- %33
+	na -- tus est de
+	Spi -- ri -- tu San -- cto %35
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et
+	ho -- mo, ho -- mo,
+	ho -- mo fa -- ctus est,
+	ex Ma -- ri -- a, Ma -- %40
+	ri -- a, M -- ri -- a
+	Vir -- gi -- ne,
+	et ho -- mo fa -- ctus
+	est, et ho -- mo fa -- ctus
+	est. %45 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

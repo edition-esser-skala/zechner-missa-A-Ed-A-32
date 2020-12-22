@@ -246,3 +246,44 @@ GloriaTromboneII = {
 		c8 c c h c4 r\fermata \bar "|." %152 finis
 	}
 }
+
+CredoTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \tempoCredo
+		e4\fE d e d8 e
+		d d d4 c r
+		r2 r8 h c f!
+		d e r a, d c r4
+		c8 d16 e f8 e16 e d8 d g, g %5
+		g4. g8 g4 r
+		c h8 c c c c h
+		c4 r r2
+		R1*6 %14
+		r2 r4 c8.\fE c16 %15
+		h8 c a4 h c8 a
+		d h e e f d e c
+		d h c4 g8 g16 g g8 g
+		g4 r r2
+		R1*8 %27
+		r2 \tempoEtIncarnatus es'\fE
+		es4 es c b
+		b2 r %30
+		R1*2
+		es2 es4 es
+		c f b, es
+		e8. e16 c4 c c %35
+		c4. c8 b4 b
+		b4. b8 b4 d
+		es f d es
+		c8 c b8. b16 b4 r
+		g g g8 g r c %40
+		as4 b8 b g4 as
+		f g g r
+		r r8 d' g, c a! d
+		d d es es d4. d8
+		c4 r r2 %45
+		R1*2
+		R1\fermataMarkup \bar "||" %48 finis
+	}
+}

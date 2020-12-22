@@ -240,3 +240,43 @@ GloriaClarinoI = {
 		e8 e d4\trill c r\fermata \bar "|." %152 finis
 	}
 }
+
+CredoClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		g''4\fE g g g8 g
+		f f16 e d4 c r
+		R1
+		\pa r8 c f4. e8 \pd r4
+		r f8 e \pa d e16 f g8 f16 e \pd %5
+		d8 d d4\trill c r
+		g' g8 g f f16 e d4
+		c r r2
+		R1*6 %14
+		r2 r4 e8\fE e %15
+		\pa e e e d \pd e4 r
+		r r8 g f4 e
+		\pa d8 e16 d c8 d d e d4 \pd
+		c r r2
+		R1*8 %27
+		r2 \tempoEtIncarnatus c4.\fE c8
+		c4 r \pa c b \pd
+		b2 r %30
+		R1*2
+		b2 b4 b
+		r2 r4 b
+		e4 c c c %35
+		R1
+		b4. b8 \pao b2
+		R1*2
+		g4 g g r %40
+		R1
+		r4 d' c r
+		R1
+		g4 g8 g g4. g8
+		g4 r r2 %45
+		R1*2
+		R1\fermataMarkup \bar "||" %48 finis
+	}
+}

@@ -280,3 +280,50 @@ GloriaViolinoII = {
 		e8 e d4 e r\fermata \bar "|." %152 finis
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c'16\fE d e f d e f g e f g a d,8 g
+		a, f' d, h' c4 r
+		r2 r8 h16 g a h c d
+		h8 c f4. e8 c[ h]
+		a h16 c d8 c h c16 d e8 e %5
+		d d d c16 d c16 d e f d e f g
+		e f g a d,8 g a, f' d, h'
+		c4 r r2
+		R1*6 %14
+		r2 r4 c8\fE c %15
+		h c16 h a8. a16 gis4 c16 d e f
+		d e f g e f g a d, e f g c, d e f
+		h, c d e a, h c d h8 c d, h'
+		c4 r r2
+		R1*4 %23
+		c16\f d es f g8 g g16 f es d c8 g'
+		\slurDashed as16( g as) as b, as'( g f) g( f g) g as, g'( f es) %25
+		f( es f) f g, f'( es d) \slurSolid es d c h! c8 g
+		as a b h c16 es h! d c8 f,
+		f16 es d c d8 h! \tempoEtIncarnatus c8-! es-! g-! c-!
+		es g c g \slurDashed as16( g as) as b, as'( g f) \slurSolid
+		g8 es b g es16 f g as b8 b %30
+		b16 as g f g8 es c'16( b c) es-! f( es f) as-!
+		b,( a b) d-! es d c b c b as g f4\trill
+		es8 g b es g es c b
+		as16 g as c b as g f g8 es g b
+		e! g b c, \once \slurDashed as'16( g as) f-! c( b c) as-! %35
+		f g as b? c8 c b?16 c d es f8 f
+		g,16( f g) b-! es( d es) g,-! f es d c b8 b'
+		c16( b c) es-! f( es f) c-! b( as? b) d-! es( d es) b-!
+		c b as g f4\trill es8 g( b h)
+		c16 d es f g8 g g16 f es d es c es g %40
+		as?( g as) c,-! b-! as'( g f) g( f g) b,-! as-! \once \slurDashed g'( f es)
+		f( es f) \parOn as,-\parenthesize-! \parOff g-\parenthesize-! f'( es d) es d c h c8 g
+		as a b h c4. c8
+		h! g c2 h!4
+		c,16 d es f g8 g g16 f es d es8 c %45
+		as'16 g as c, b as' g f g f g b, as g' f es
+		f es f as, g f' es d es c' h! d c8 f,
+		f16 es d c d8 h! c2\fermata \bar "||" %48 finis
+	}
+}

@@ -476,6 +476,90 @@ GloriaTenoreLyrics = \lyricmode {
 	a -- men, a -- men. %152 finis
 }
 
+CredoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr e4\fE^\tutti d e d8 e
+		d d d4 c r
+		r2 r8 h c f!
+		d e r a,^\critnote d c r4
+		c8 d16([ e)] f8 e16 e d8 d g, g %5
+		g4. g8 g4 r
+		c h8 c c c c([ h)]
+		c4 \mvTr c8\pE^\soloE c h h a8. a16
+		gis4 e'8 d c8.([ h16)] a4
+		r d8 c16 c h8.([ a16)] g4 %10
+		r c8 c c4. h8
+		c4 r r2
+		R1*2
+		r2 r4 \mvTr c8.\fE^\tutti c16 %15
+		h8 c^\critnote a4 h c8 a
+		d h e e f d e c
+		d h c4 g8 g16 g g8 g
+		g4 r r2
+		R1*8 %27
+		r2 \tempoEtIncarnatus \mvTr es'\fE^\tutti
+		es4 es c b
+		b2 r %30
+		R1*2
+		es2 es4 es
+		c f b, es
+		e8. e16 c4 c c %35
+		c4. c8 b4 b
+		b4. b8 b4 d
+		es f d es
+		c8 c b8. b16 b4 r
+		g g g8 g r c %40
+		as4 b8 b g4 as
+		f g g r
+		r r8 d' g, c a! d
+		d d es es d4. d8
+		c4 r r2 %45
+		R1*2
+		R1\fermataMarkup \bar "||" %48 finis
+	}
+}
+
+CredoTenoreLyrics = \lyricmode {
+	Cre -- do, cre -- do in
+	u -- num De -- um,
+	fa -- cto -- rem
+	coe -- li et ter -- rae,
+	vi -- si -- bi -- li -- um et in -- vi -- si -- %5
+	bi -- li -- um.
+	Cre -- do in u -- num De --
+	um. Et in u -- num Do -- mi --
+	num Je -- sum Chri -- stum,
+	Fi -- li -- um De -- i %10
+	u -- ni -- ge -- ni --
+	tum.
+
+	Ge -- ni -- %15
+	tum non fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem Pa -- tri, per quem
+	o -- mni -- a, o -- mni -- a fa -- cta
+	sunt.
+
+	Et %28
+	in -- car -- na -- tus
+	est, %30
+
+	et in -- car -- %33
+	na -- tus est de
+	Spi -- ri -- tu San -- cto %35
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et
+	ho -- mo, ho -- mo,
+	ho -- mo fa -- ctus est,
+	ex Ma -- ri -- a, Ma -- %40
+	ri -- a, M -- ri -- a
+	Vir -- gi -- ne,
+	et ho -- mo fa -- ctus
+	est, et ho -- mo fa -- ctus
+	est. %45 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

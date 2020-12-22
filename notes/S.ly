@@ -600,6 +600,100 @@ GloriaSopranoLyrics = \lyricmode {
 	a -- men, a -- men. %152 finis
 }
 
+CredoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr c'4\fE^\tutti d c h8 c
+		c c c([ h)] c \mvTr e\pE^\soloE d c
+		h8. c16 a4 g8 \mvTr h\fE^\tuttiE a d
+		h c r f f e c h
+		a h16 c d8. c16 h4 c8 c %5
+		c c c8. h16 c4 r
+		e d8 e d d d4
+		c r r2
+		R1*3 %11
+		r4 \mvTr c\pE^\solo h8 a16([ g)] e'4
+		d8 g e d c8. c16 c4
+		f4. d8 h4 c8 d
+		e16([ d)] f([ d)] h4\trill c \mvTr e8.\fE^\tutti e16 %15
+		e8 e e([ d)] e4 c8 c
+		d d e e d d c c
+		h8. h16 a4 h8 c16 c c8 h
+		c \mvTr e\pE^\solo c h a4 r
+		r8 c h a gis h c d %20
+		e4 d8 e c16([ h)] a8 r e'
+		f[ e d c] h[ a g f]
+		e[ d] c c' c4( h)
+		c r r2
+		R1*3 %27
+		r2 \tempoEtIncarnatus \mvTr c\fE^\tuttiE
+		c4 c as4. as8
+		g2 r %30
+		R1*2
+		b2 b4 b
+		as4. as8 g4 b
+		b8. b16 b4 b4 as %35
+		as4. as8 as4 as
+		g4. g8 f4 b
+		c2 b
+		as8 as f8. f16 g4 r
+		g g g8 g r g %40
+		as2 g
+		f4. f8 es4 r8 g
+		as([ a b h)] c4 r8 c
+		h!4 c c4. h!8
+		c4 r r2 %45
+		R1*2
+		R1\fermataMarkup \bar "||" %48 finis
+	}
+}
+
+CredoSopranoLyrics = \lyricmode {
+	Cre -- do, cre -- do in
+	u -- num De -- um, Pa -- trem o --
+	mni -- po -- ten -- tem, fa -- cto -- rem
+	coe -- li et ter -- rae, vi -- si --
+	bi -- li -- um o -- mni -- um et in -- %5
+	vi -- si -- bi -- li -- um.
+	Cre -- do in u -- num De --
+	um.
+
+	De -- um de De -- %12
+	o, lu -- men de lu -- mi -- ne,
+	De -- um ve -- rum de
+	De -- o ve -- ro. Ge -- ni -- %15
+	tum non fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem Pa -- tri, per quem
+	o -- mni -- a, o -- mni -- a fa -- cta
+	sunt. Qui pro -- pter nos,
+	nos ho -- mi -- nes et pro -- pter %20
+	no -- stram sa -- lu -- tem de --
+	scen -- _
+	_ dit de coe --
+	lis.
+
+	Et %28
+	in -- car -- na -- tus
+	est, %30
+
+	et in -- car -- %33
+	na -- tus est de
+	Spi -- ri -- tu San -- cto %35
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et
+	ho -- mo,
+	ho -- mo fa -- ctus est,
+	ex Ma -- ri -- a, Ma -- %40
+	ri -- a
+	Vir -- gi -- ne, et
+	ho -- mo, et
+	ho -- mo fa -- ctus
+	est. %45 finis
+}
+
+
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
