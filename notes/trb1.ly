@@ -388,3 +388,91 @@ CrucifixusTromboneI = {
 		g1.\fermata \bar "||"
 	}
 }
+
+EtResurrexitTromboneI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #101
+		r2 r8 g'\fE g g
+		g g r4 r8 g g g
+		g g r4 r8 g g g
+		f2 e8 g g g
+		f2 e8 e e4 %105
+		fis8 d e d d4 r
+		R1
+		r2 r4 r8 g
+		g4 g f f8 f
+		f e16 e d4\trill e r %110
+		R1*9 %119
+		r2 r4 g8\fE g %120
+		g g g g g4 g
+		r g8 g a f d4
+		e8 g g g g g g fis
+		g4 r r2
+		R1*14 %138
+		r4 \tempoEtVitam g\fE g g8 e
+		f f d d e4 r %140
+		r2 r8 g g4
+		g8 g g g g4. fis8
+		g4 r r2
+		r8 g g4 g r
+		r2 r8 g g g %145
+		f f16 f d4 e r
+		R1*3
+		r2 r4 g %150
+		fis f e a
+		gis g fis \once \tieDashed g~
+		g8 f e d e4 c
+		d8 g e c f4 d
+		e8 a fis d g4 d %155
+		d2 e
+		e4 a a fis8 d
+		g e a fis d4 r
+		r2 r4 g
+		fis f e8 g e c %160
+		f d g e c4 fis
+		g a d, g
+		fis f e r
+		r2 r4 g
+		g2 a4 d, %165
+		e8 a fis d g4 d
+		d2 e8 g c, e
+		e2 fis8 a d, fis
+		fis2 g4. g8
+		fis2 e4 r4 %170
+		R1
+		r8 fis h gis e4 a8 fis
+		d4 r r2
+		r4 g g r
+		r2 r4 c, %175
+		d8 g e c f a f d
+		g4 f f d
+		es f b, e
+		f-\critnote g f r
+		r2 r4 f %180
+		e es d g
+		fis f e8 g c, e
+		f4 g a f
+		e e e2
+		e4 r r2 %185
+		r4 e2 e4
+		fis8 a d, fis g4 a
+		d, d2 d4
+		e8 g c, e f4 g
+		c, r8 a'16 g f8 g g4 %190
+		g r8 g f g g4
+		g r r g
+		fis f e c
+		d8 g d4 d4. d8
+		e f g e f4 g %195
+		f fis g a
+		g h a g
+		g a2 g4
+		g r r g
+		g r r d %200
+		e g g g
+		g r r2
+		r4 d e r\fermata \bar "|." %203 finis
+	}
+}

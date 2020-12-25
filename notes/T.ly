@@ -560,6 +560,205 @@ CredoTenoreLyrics = \lyricmode {
 	est. %45 finis
 }
 
+EtResurrexitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #101
+		r2 r8 \mvTr e\fE^\tutti e e
+		d16([ c)] h8 r4 r8 h d h
+		c16([ h)] c8 r4 r8 e e e
+		d2^\critnote e8 e e c
+		d2 e8 c16([ d)] e4 %105
+		a,8 g g([ fis)] g4 r
+		R1
+		r2 r4 r8 d'
+		d4 c c d8 d
+		d c16 c a8([ g)] g4 r %110
+		r8 \mvTr e'\pE^\soloE d8. c16 h8 a g f
+		e g c16[ h c h] a4 d16[ c d c]
+		h4 e16[ d e d] c8 h16 a f'8 d
+		h g e'([ c)] a d \appoggiatura c h8. h16
+		a4 r r2 %115
+		R1*3
+		r4 h8 a g8.([ a16)] h8 a16([ g)]
+		g8. fis16 fis4 r \mvTr h8\fE^\tuttiE h %120
+		h h h h c4 c
+		r e8 e c d d4
+		g,8 c c c d h c([ d)]
+		d4 r r2
+		R1*4 %128
+		r2 r4 \mvTr h\pE^\soloE
+		h4. c16 d e4 d8 c %130
+		c4 h e8 e d e
+		f f e d c4( h)
+		c r r2
+		R1*5 %138
+		r4 \tempoEtVitam \mvTr e\fE^\tutti d e8 c
+		a a g g g4 r %140
+		r2 r8 c d([ h)]
+		c c d d c([ d e)] c
+		d4 r r2
+		r8 d d4 c r
+		r2 r8 e e e %145
+		a, a16 a g4 g r
+		R1
+		r2 r4 c(
+		h b) a d(
+		cis c) h g( %150
+		a8[ d h g)] c4 a(
+		h8[ e cis a)] d4 h8[ g]
+		a4 h c a
+		g c f, h!
+		a d g,8[ h d h] %155
+		a4 h c8[ e c a]
+		e'2 a,4 a(
+		g a) h r
+		r2 r4 g(
+		a8[ d h g)] c4 e %160
+		d e f8[ c d a]^\critnote
+		e'4 d d c(
+		a h) g r
+		r2 r4 c(
+		h b) a d( %165
+		cis c) h g(
+		a8[^\critnote d h g]) c4 a(
+		h8[^\critnote e cis a)] d4 h(
+		fis' h,) h h8 h
+		h2 h4 r %170
+		R1
+		r4 h a a
+		g r r2
+		r8 d'[( h d)] c4 r
+		r2 r4 c( %175
+		h b) a^\critnote f(
+		g8[ c a f]) b4 d
+		c b g8[ b] c4
+		f, c' c r
+		r2 r4 a( %180
+		g c) f, g8([ h!]
+		a4 d) g, g(
+		f c') c h!8[ a]
+		gis4 a2 gis4
+		a r r2 %185
+		r4 c( h a)
+		a a g d'
+		h8[ g] h4 a g
+		g g( f c')
+		c r8 f,16([ g] a8[ h] c4) %190
+		h r8 g( a[ h] c4)
+		h r r2
+		r r4 c
+		h b a8[ d h g]
+		c[ d e c] f,4 c' %195
+		a8([^\critnote c] d4 g, d')
+		d h c d
+		c8[ d] e4 d2
+		e4 r r h
+		c r r g %200
+		g h c h
+		c r r2
+		r4 g g r\fermata \bar "|." %203 finis
+	}
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+	Et re -- sur -- %101
+	re -- xit, et re -- sur --
+	re -- xit, et re -- sur --
+	re -- xit ter -- ti -- a
+	di -- e se -- cun -- %105
+	dum Scri -- ptu -- ras,
+
+	in
+	coe -- lum, se -- det ad
+	dex -- te -- ram Pa -- tris. %110
+	Et i -- te -- rum ven -- tu -- rus
+	est cum glo -- _ _
+	_ _ _ ri -- a iu -- di --
+	ca -- re vi -- vos et mor -- tu --
+	os. %115
+
+	Qui cum Pa -- tre et %119
+	Fi -- li -- o si -- mul, %120
+	si -- mul ad -- o -- ra -- tur,
+	si -- mul ad -- o -- ra --
+	tur et con -- glo -- ri -- fi -- ca --
+	tur.
+
+	Con -- %129
+	fi -- te -- or u -- num ba -- %130
+	ptis -- ma in re -- mis -- si --
+	o -- nem pec -- ca -- to --
+	rum.
+
+	Et vi -- tam ven -- %139
+	tu -- ri sae -- cu -- li, %140
+	et vi --
+	tam ven -- tu -- ri sae -- cu --
+	li,
+	et vi -- tam
+	ven -- tu -- ri %145
+	sae -- cu -- li, a -- men.
+
+	A --
+	men, a --
+	men, a -- %150
+	men, a --
+	men, a --
+	_ _ _ _
+	_ _ _ _
+	men, a -- _ %155
+	_ _ _
+	_ men, a --
+	men,
+	a --
+	men, a -- %160
+	_ _ _
+	_ _ men, a --
+	men,
+	a --
+	men, a -- %165
+	men, a --
+	men, a --
+	men, a --
+	men, a -- men,
+	a -- men, %170
+
+	a -- men, a --
+	men,
+	a -- men,
+	a -- %175
+	men, a --
+	men, a --
+	_ _ _ _
+	men, a -- men,
+	a -- %180
+	men, a --
+	men, a --
+	men, a --
+	_ _ _
+	men, %185
+	a --
+	men, a -- men, a --
+	_ _ _ _
+	men, a --
+	men, a -- %190
+	men, a --
+	men,
+	a --
+	_ _ _
+	_ _ men, %195
+	a --
+	men, a -- _ _
+	_ _ _
+	men, a --
+	men, a -- %200
+	men, a -- men, a --
+	men,
+	a -- men. %203 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -963,6 +963,241 @@ CrucifixusBassFigures = \figuremode {
 	r1. %100 finis
 }
 
+EtResurrexitOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #101
+		\mvTr c8\fE-\tutti c c c c c' c c
+		h16 a g8 r4 r8 g16 a h8 g
+		c c, c c c c' c c
+		c c h h c, c c' c
+		c c h h c c16 h a8 g %105
+		fis g c, d g,4 r
+		R1
+		r2 r4 r8 g'
+		c4 c, f4. d8
+		g a f g c, c c c %110
+		c4 r8 \mvTr a'\pE-\solo g f e d
+		c4 r8 c f16 e f e d4
+		g16 f g f e4 a d,8 f
+		g4 c,8 e f d e e,
+		a e'4 dis8 e e f! g %115
+		e c c'4 g8 e a4
+		g8 a16 h c8 c, f4 fis
+		g8 a h g c c h a
+		h a h h, e4 r8 a
+		h h, h' a \mvTr g\fE-\tutti g g g %120
+		g g h g c4 c,
+		r c8 c f d g f
+		e c' c c h16 a g8 a4
+		g8 g g g g4 r
+		\mvTr g4.\pE-\solo g8 c,4 d %125
+		g,8 g' g,4 r8 d' d e16 fis
+		g8 a16 g fis8 d g4 r8 g
+		d c h e d d d, d
+		g\fE g' g g g g, g'4\pE
+		e8 d c h a a' d,4 %130
+		e8 e, e' d cis4. a8
+		d a' g f g f g g,
+		c4 r c r
+		c8 c c c c c' h a
+		g4 r a-\senzaOrg g %135
+		f e d c
+		h a gis a
+		e'2 e,
+		a4 \tempoEtVitam \mvTr c\fE-\tutti g' e8 a
+		f d g g, c4 r %140
+		r2 r8 c' h g
+		c, c' h g c h a d,
+		g4 r r2
+		r8 g16 a h8 g c4 r
+		r2 r8 c,16 d e8 c %145
+		f d g g, c4 r
+		R1
+		r2 r4 \clef "treble_8" c'-!
+		h-! b-! a-! d-!
+		cis-! c-! h-!
+		<< {
+			g' %150
+			fis f e a
+			gis g fis \once \tieDashed g~
+			g8 f e d e4 s
+		} \\ {
+			g, %150
+			a8 d h g c4 a
+			h8 e cis a d4 h8 g
+			a4 h c a
+		} >>
+		g c f, h!
+		a d g, \clef bass g %155
+		fis f e8 c a'4
+		gis g fis d
+		e8 a fis d g4 r
+		r2 r4 \clef "treble_8" << {
+			g'
+			fis f e
+		} \\ {
+			g,
+			a8 d h g c4
+		} >> \clef bass c, %160
+		d8 g e c f4 d
+		e8 a fis d g4 e
+		d g c, r
+		r2 r4 \clef "treble_8" c'
+		h \clef bass c, f \clef "treble_8" d' %165
+		cis \clef bass d, g g
+		fis f e a
+		gis g fis h
+		ais a g8 fis g e
+		h'4 h, e r %170
+		R1
+		r8 h' gis e a a fis d
+		g4 r r2
+		r8 g h g c4 r
+		r2 r4 \clef "treble_8" c %175
+		h b a \clef bass f
+		e es d b
+		c8 f d b es4 c
+		d8 g e c f4 r
+		r2 r4 f %180
+		c2 b4 g'
+		d2 c4 c
+		d8 g e c f4 d
+		e8 d c h16 a e'4 e,
+		a r r2 %185
+		r4 a' gis g
+		fis d e8 a fis d
+		g d g4 fis f
+		e c d8 g e c
+		f4 r8 f16 e d4 c %190
+		g'4 r8 e d4 c
+		g' r r \clef treble << {
+			g'
+			a8 d h g c[ d]
+		} \\ {
+			g,4
+			fis f e
+		} >> \clef "treble_8" c
+		h \clef bass g fis f
+		e r8 c d g e c %195
+		f4 r8 d e a fis d
+		g4 r8 g a d h g
+		c4 a f g
+		c, r r g'
+		c r r g, %200
+		c g' c g
+		c, r r2
+		r4 g' c, r\fermata \bar "|." %203 finis
+	}
+}
+
+EtResurrexitBassFigures = \figuremode {
+	r1 %101
+	<[6]>
+	r1
+	<4 2>4 <\t \t>2.
+	<4 2>4 <\t \t>2. %105
+	<6 5>4 <[6 5]>8 <_+> r2
+	r1
+	r
+	\bo <[9 4]>4 \bc <[8 3]> <5> <6>
+	<[7]> <6 5>2. %110
+	r1
+	r
+	r4 <_+>2 r8 <[6]>
+	r4. \bo q <6 4>8 \bc <[5] _+>
+	r <_!> <4 2+> <\t \t> <5> <6>4. %115
+	\bo <[6]>2 r8 \bc q <7> <6\\>
+	r2 <6>4 <\t>8 <5>
+	r2. <[5+] _+>4
+	\bo <[6] 4> <5+ _+> r4. <8 6\\>16 \bc <[7] 5>
+	\bo <[6] 4>4 \bc <[5+] _+>2. %120
+	r1
+	r
+	\bo <[6]>2 <6>4 \bc <[7]>8 <6\\>
+	r1
+	r2 \bo <[6]>4 <6 4>8 \bc <[5] _+> %125
+	r2 r8 <7 _+>4.
+	r8 \bo <[6\\ \l]> \bc <[6 5]>2.
+	<_+>4 \bo <[6 \l]>8 <6 4> q4 \bc <[5] _+>
+	r1
+	\bo <[_+]>2. <8 6>8 \bc <[7] 5> %130
+	\bo <[6] 4>4 \bc <[5] _+> <6>4. <_+>8
+	r <6> q q <6 4>4 <5 3>
+	r1
+	r2. <6>8 <[6\\]>
+	r1 %135
+	r
+	r
+	<5 _+>4 <6 4> <5 \t> <\t _+>
+	r2. <[6]>4
+	r <4>8 <3> r2 %140
+	r2. <[6 5]>4
+	r \bo q4. \bc <[6 \l]>8 <7> <[7] _+>
+	r1
+	r4 <[6]>2.
+	r q4 %145
+	<[6 5]> <4>8 <3> r2
+	r1
+	r
+	r
+	r %150
+	r
+	r
+	r2. <10 3>4
+	<10 5> <7- 3>2 <10 3>4
+	<_+> <7! _+>2. %155
+	<6>4 <4 2> <6>2
+	<6>4 <4+ 2> <6> <_+>
+	<6\\> <5!>2.
+	r1
+	r %160
+	<6>4 <5-> r <_+>
+	<6\\> <5!> r <[6]>
+	<_+> <7!>2.
+	r <5>4
+	<6> <7-> r <_+> %165
+	<6> <7! _+>2.
+	<6>4 <4 2> <6>2
+	q4 <4+ 2> <6> <5+ [_+]>
+	<6+ [_+]> <[6+] 4+ 2> <6>2
+	\bo <[5+] 4>4 \bc <[\t] _+>2. %170
+	r1
+	r8 <[5+] _+> <5!>4 <_+> <5!>
+	r1
+	r
+	r2. <5>4 %175
+	<6> <4 2> <6>2
+	<6>4 <4 2> <6->2
+	<6! [_-]>4 <5-> <[5-]> <_!>
+	<6!> <5->2.
+	r1 %180
+	<5 _!>4 <6 _-> r <_!>
+	<5 _+> <6! _!>2.
+	<6!>4 <5-> r \bo <[8] 6!>8 \bc <[7] 5>
+	<_+>4 <6> <4> <_+>
+	r1 %185
+	r4 <[_+]> <6> <4+ 2>
+	<6> <[_+]> <6\\> <5!>
+	r2 <6>4 <4 2>
+	<6>2 <6>4 <5->
+	r2 <[5]>8 <[6]>4. %190
+	r4. <6>8 <[5]> <6> q4
+	r1
+	r
+	<6>4 <_-> <6> <4! 2>
+	r2 <6>4 <5-> %195
+	r4. <_+>8 <6\\>4 <5!>
+	r2 <6\\>4 <5!>
+	r2 <6 5>
+	r2. <7>4
+	r1 %200
+	r
+	r
+	r4 <7>2. %203 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

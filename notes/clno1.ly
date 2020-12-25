@@ -280,3 +280,68 @@ CredoClarinoI = {
 		R1\fermataMarkup \bar "||" %48 finis
 	}
 }
+
+EtResurrexitClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #101
+		r2 r8 g''16\fE g g8 g
+		g[ g] r4 r8 f16 f f8 f
+		e16 f g8 r4 r8 g g g
+		f f r f e g g g
+		f^\critnote f r f e e e e %105
+		a g4 fis8 g4 r
+		R1
+		r2 r4 r8 f
+		f4 e r r8 f
+		f e d4 c8 g16 g g8 g %110
+		g4 r r2
+		R1*8 %119
+		r2 d'8\fE d d d %120
+		d g g16 f e d e8 c16 c c8 c
+		c e16 e e8 g a4 h
+		c8 g g g g g g fis
+		g d16 d d8 d d4 r
+		R1*8 %132
+		e4\pE r e r
+		r8 g,16 g g8 g g4 r
+		R1*4 %138
+		r4 \tempoEtVitam g'2\fE g8 a
+		a f16 e d4 c r %140
+		r2 r8 g' g g
+		g g g g g g \appoggiatura g fis4
+		g r r2
+		r8 g g4 g r
+		r2 r8 e16 f g8 e %145
+		a16 g f e d4 c r
+		r2 r8 g' a f
+		g e f d e4 r
+		R1*7 %155
+		r4 d e r
+		R1*5 %161
+		r2 r4 g
+		fis f e r
+		r2 r4 c
+		d8[ g e c] f4 r %165
+		R1
+		r4 d e r
+		R1*6 %173
+		r8 g g g g4 r
+		R1*9 %183
+		r4 e e e
+		e r r2 %185
+		R1*4
+		\pa r8 c d c f4 e \pd %190
+		d r8 g f4 \pa e
+		d g, g \pd r
+		R1*4 %196
+		r4 g' fis f
+		e4. e8 d4. d8
+		c4 r r g'
+		e r r d %200
+		e d e d
+		c r r2
+		r4 g' g r\fermata \bar "|." %203 finis
+	}
+}

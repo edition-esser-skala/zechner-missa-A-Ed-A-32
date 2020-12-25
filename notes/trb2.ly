@@ -287,3 +287,93 @@ CredoTromboneII = {
 		R1\fermataMarkup \bar "||" %48 finis
 	}
 }
+
+EtResurrexitTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #101
+		r2 r8 e\fE e e
+		d16 c h8 r4 r8 h d h
+		c16 h c8 r4 r8 e e e
+		d2 e8 e e c
+		d2 e8 c16 d e4 %105
+		a,8 g g fis g4 r
+		R1
+		r2 r4 r8 d'
+		d4 c c d8 d
+		d c16 c^\critnote a8 g g4 r %110
+		R1*9 %119
+		r2 r4 h8\fE h %120
+		h h h h c4 c
+		r e8 e c d d4
+		g,8 c c c d h c d
+		d4 r r2
+		R1*14 %138
+		r4 \tempoEtVitam e\fE d e8 c
+		a a g g g4 r %140
+		r2 r8 c d h
+		c c d d c d e c
+		d4 r r2
+		r8 d d4 c r
+		r2 r8 e e e %145
+		a, a16 a g4 g r
+		R1
+		r2 r4 c
+		h b a d
+		cis c h g %150
+		a8 d h g c4 a
+		h8 e cis a d4 h8 g
+		a4 h c a
+		g c f, h!
+		a d g,8 h d h %155
+		a4 h c8 e c a
+		e'2 a,4 a
+		g a h r
+		r2 r4 g
+		a8 d h g c4 e %160
+		d e f8 c d a
+		e'4 d d c
+		a h g r
+		r2 r4 c
+		h b a d %165
+		cis c h g
+		a8 d h g c4 a
+		h8 e cis a d4 h
+		fis' h, h h8 h
+		h2 h4 r %170
+		R1
+		r4 h a a
+		g r r2
+		r8 d' h d c4 r
+		r2 r4 c %175
+		h b a f
+		g8 c a f b4 d
+		c b g8 b c4
+		f, c' c r
+		r2 r4 a %180
+		g c f, g8 h!
+		a4 d g, g
+		f c' c h!8 a
+		gis4 a2 gis4
+		a r r2 %185
+		r4 c h a
+		a a g d'
+		h8 g h4 a g
+		g g f c'
+		c r8 f,16 g a8 h c4 %190
+		h r8 g a h c4
+		h r r2
+		r r4 c
+		h b a8 d h g
+		c d e c f,4 c' %195
+		a8^\critnote c d4 g, d'
+		d h c d
+		c8 d e4 d2
+		e4 r r h
+		c r r g %200
+		g h c h
+		c r r2
+		r4 g g r\fermata \bar "|." %203 finis
+	}
+}

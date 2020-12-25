@@ -328,6 +328,107 @@ CredoViolinoI = {
 	}
 }
 
+EtResurrexitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #101
+		c'16\fE g c e c g c e c8 c, r4
+		g''16 d g h g d g h g8 g, r4
+		c'16 g c e c g c e c8 c, r16 c' d e
+		d c h a g f e f e g c8 r16 c d e
+		d c h a g f e f e8 e e e %105
+		d c16 h a4\trillE g r
+		e\pE f g a
+		h c d h8\fE f'
+		f4\trill e a,16 f a c d a d c
+		h g' e c d4\trill c16 g c e c g e g %110
+		c,4 r r2
+		R1*3
+		r8 g''\p \appoggiatura g fis4\trill e8 c4 h8 %115
+		c4 e16 f g e d8 g4 fis8
+		g4 r r2
+		R1*2
+		r2 g16\fE d g h g d g h %120
+		g d g a g f e d e c e g c g e g
+		c, g c e c g c e a, d c d h4\trillE
+		c16 g c e g e c e d8 g4 fis8
+		g16 d g h g d h d g,4 r
+		r8 g'16\p a h4 r2 %125
+		r8 h,16 c d4 r2
+		R1*2
+		g,16\fE d g h g d g h g8 g, r4
+		R1*3 %132
+		c''4\pE r c r
+		c,16 g c e c g c e c e g4 fis8
+		g d4 e f e8~ %135
+		e d4 c b a8~
+		a gis a c h h a a
+		gis gis a a a a gis gis
+		a4 \tempoEtVitam g'8\f e d e16 f g8 c,
+		a d \appoggiatura c h4\trill c8 g'\p a f %140
+		g e f d e g16\f a g a g a
+		g8 g16 a g a g a g8 g g fis
+		g d\p e c d h c a
+		h g'\fE g16 f e d e8 g,\p a f
+		g e f d e e'16\f f g8 c, %145
+		a'16 g f e d4\trill c8 g'\p a f
+		g e f d e4 r
+		R1*5 %152
+		r2 r4 c\fE
+		h b a d^\critnote
+		cis c h g %155
+		a8 d h g c4 a
+		h8 e cis a d a' fis d
+		cis4 c h8 d\pE e c
+		d h c a h4 r
+		r2 r4 c\fE %160
+		h b a8 d, d'4
+		cis c h g
+		a8 d h g c g'\p a f
+		g e f d e4 c\f
+		d8 g e c a' f a,4 %165
+		a2 h8 d h g
+		d' a h4 c8 e a, c
+		h4 a a d8 h
+		cis fis dis h e h e4
+		e dis e8 h\p c a %170
+		h g a fis g e e'4\f
+		dis d cis c
+		h8 d\p e c d h c a
+		h g'\f f4 e8 g\p a f
+		g e f d e c,\f e f %175
+		g2 a
+		r r4 b
+		a as g c
+		h b a8 c\p d b
+		c a b g a4 f\f %180
+		g8 c a f b4 g
+		a8 d h g c4 c
+		h b a d8 c
+		h4 c h2
+		a8 e'\p f d e c d h %185
+		c e a,4\f h8 e cis a
+		d a d4 cis c
+		h g a8 d h g
+		c g c4 h b
+		a8 c d c f4 e %190
+		d8 g e c f4 e
+		d8 d,\p e c d4 g\f
+		a8 d h g c d e4
+		d2 r
+		r4 c h b %195
+		a d cis c
+		h g' fis f
+		e8 d c4.\trill c8 h4
+		c8 g'\p a f g e f\fE d
+		e g,\pE a f g e f\f d %200
+		e e' d g e c d, h'
+		c g'\p a f g e f d
+		e4 h\f c r\fermata \bar "|." %203 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

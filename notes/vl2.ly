@@ -327,3 +327,104 @@ CredoViolinoII = {
 		f16 es d c d8 h! c2\fermata \bar "||" %48 finis
 	}
 }
+
+EtResurrexitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #101
+		c'16\fE g c e c g c e c8 c, r4
+		g''16 d g h g d g h g8 g, r4
+		c'16 g c e c g c e c8 c, r16 c' d e
+		d c h a g f e f e g c8 r16 c d e
+		d c h a g f e f e8 e e e %105
+		d c16 h a4\trill g r
+		c,\p d e f
+		g a h g8\f d'
+		d4 c a16 f a c d a d c
+		h8 c4 h8 c16 g c e c g e g %110
+		c,4 r r2
+		R1*3
+		r8 h'\p a4 g f8 d-\critnote %115
+		e4 c'16 d e c h8 h c4
+		h4 r r2
+		R1*2
+		r2 g'16\fE d g h g d g h %120
+		g d g a g f e d e c e g c g e g
+		c, g c e c g c e a, d c d h4\trill
+		c16 g c e g e c e d8 g4 fis8
+		g16 d g h g d h d g,4 r
+		r8 h16\pE c d4 r2 %125
+		r8 g,16 a h4 r2
+		R1*2
+		g16\fE d g h g d g h g8 g, r4
+		R1*3 %132
+		e''4\pE r e r
+		c16 g c e c g c e c8 e d c
+		h h, r4 c' h %135
+		a g f e
+		d c e8 d c c
+		h h c c h h h h
+		a4 \tempoEtVitam e''8\fE c h c16 d e8 c
+		d d d4 e8 e\p f d %140
+		e c d h c e\fE d h
+		c c d h e d c4\trill
+		h8 h\pE c a h g a fis
+		g h16\fE c d8 h g e\pE f d
+		e c d h c c'\fE c c %145
+		c d c h c e\pE f d
+		e c d h c4 r
+		R1*5 %152
+		r2 r4 c\fE
+		h b a d
+		cis c h g %155
+		a8 d h g c4 a
+		h8 e cis a d a' fis d
+		cis4 c h8 h\p c a
+		h g a fis g4 r
+		r2 r4 c\fE %160
+		h b a8 d, d'4
+		cis c h g
+		a8 d h g c e\pE f d
+		e c d h c4 c\fE
+		d8 g e c a' f a,4 %165
+		a2 h8 d h g
+		a4 g g c
+		h4 a a d8 h
+		cis fis dis h e h e4
+		e dis e8 g,\p a fis %170
+		g e fis dis e4 e'\fE
+		dis d cis c
+		h8 h\pE c a h g a fis
+		g h\f d h e e\p f d
+		e c d h c c,\f e f %175
+		g2 a
+		r r4 b
+		a as g c
+		h b a8 a\pE b g
+		a f g e f4 f\fE %180
+		g8 c a f b4 g
+		a8 d h g c4 e,
+		f g a8 g a4
+		gis a2 gis4
+		a8 c\p d h c a h gis %185
+		a4 a\f h8 e cis a
+		d a d4 cis c
+		h g a8 d h g
+		c g c4 h b
+		a8 c d c h4 c %190
+		h r8 g h4 c
+		h8 h,\p c a h4 g'\f
+		a8 d h g c d e4
+		d2 r
+		r4 c h b %195
+		a d cis c
+		h g' fis f
+		e8 d c4.\trillE c8 h4
+		c8 e\p f d e c d\f h
+		c e,\p f d e c d\f h %200
+		c c' h d e c d, h'
+		c e\pE f d e c d h
+		c4 d,\fE e r\fermata \bar "|." %203 finis
+	}
+}
