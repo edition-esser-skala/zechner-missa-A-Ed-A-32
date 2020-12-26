@@ -1018,6 +1018,59 @@ SanctusSopranoLyrics = \lyricmode {
 	sis. %43 finis
 }
 
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*7 %7
+		r2 \mvTr g'16([\pE^\solo a h c] a[ h)] c([ d)]
+		h4 a8 d16([ h)] g8 a16 h a8 g16 a
+		fis8. e16 d8 a' h4~ h16[ d h g] %10
+		a[ cis d h] g8. fis16 fis8 a fis e16 d
+		a'1~
+		a4~ a16[ d cis d] h8[ g'16 e] cis8.\trill d16
+		d4 r r2
+		R1*3 %17
+		r2 r4 a8 d
+		gis,4 a8 h c!([ d)] e g,
+		fis8. fis16 g8 a h[ a16 h] c8[ h16 c] %20
+		d8[ c16 d] e8[ d16 c] h2~
+		h8 a16 h c8 h16([ c)] a4 r
+		g16([ a h c] a[ h)] c([ d)] h4 a8 d16([ h)]
+		g8 a16 h c8 h16 a h8 c16 d e8 d16 c
+		d8([ c16 d] e[ c h a] g4) a\trill %25
+		g r8 a h[ g'] a,[ h16 c]
+		h8[ g'] a,[ h16 c] h8[ g16 a] h[ d e fis]
+		g8[ fis16 e] d([ e)] c([ a)] g4 a
+		g r r2
+		R1*3 %32
+		R1\fermataMarkup \markOsanna \bar "||" %33 finis
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	Be -- ne -- %8
+	di -- ctus, qui ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, in no -- %10
+	_ _ mi -- ne, in no -- mi -- ne
+	Do --
+	_ _ mi --
+	ni.
+
+	Be -- ne -- %18
+	di -- ctus, qui ve -- nit in
+	no -- mi -- ne, in no -- _ %20
+	_ _ _
+	mi -- ne Do -- mi -- ni,
+	Be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne Do -- mi -- ni, no -- mi -- ne
+	Do -- mi -- %25
+	ni, in no -- _
+	_ _ _ _
+	_ mi -- ne Do -- mi --
+	ni. %29 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

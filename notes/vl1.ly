@@ -472,6 +472,45 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoBenedictus
+		g'16\fE a h c a h c d \appoggiatura c8 h4 \tuplet 3/2 8 { g'16[ h a] g fis e }
+		\tuplet 3/2 8 { d e fis g[ fis e] d h d c[ a c] } \appoggiatura c8 h4 h16( d) h( g)
+		a( cis) d( fis) g, e' e, g g8 fis << { e8.( fis32 g) } \\ { a,4 } >>
+		\tuplet 3/2 8 { fis'16 d' a h[ g' e] } \appoggiatura d8 cis4\trill d8 d, << { e8.( fis32 g) } \\ { a,4 } >>
+		\tuplet 3/2 8 { fis'16 d' a h[ g' e] } \appoggiatura d8 cis4\trill d d16 g fis g %5
+		e, c' h c \tuplet 3/2 8 { a16[ e' d] c h a } \appoggiatura g8 fis4 d16\p a d h
+		d c d h d a d h d c d h \tuplet 3/2 8 { g[\fE h d] g h d }
+		\tuplet 3/2 8 { e,[ e' d] c h a } g8 fis g4 r
+		R1
+		r2 h16\p d h g d'4 %10
+		d4. cis8 d4 r
+		r a16 e a fis a g a fis a e a fis
+		a g a fis r4 r2
+		d16\f e fis g e fis g a fis4 \tuplet 3/2 8 { d'16 fis e d[ cis h] }
+		\tuplet 3/2 8 { a[ h cis] d cis h a[ fis a] g e g } \appoggiatura g8 fis4 a'16 d cis d %15
+		h, g' fis g \tuplet 3/2 8 { e[ h' a] g fis e } \appoggiatura d8 cis4 a16\p e a fis
+		a g a fis a e a fis a g a fis \tuplet 3/2 8 { d[\f fis a] d fis a }
+		\tuplet 3/2 8 { h,[ h' a] g fis e } d8 cis\trillE d4 r
+		R1
+		r2 d8\p e4 fis8~ %20
+		fis g4 a8 h h, h4
+		r8 h c h a16 h c d e c h a
+		h4 r r2
+		R1*2 %25
+		r4 << { a8.( h32 c) } \\ { d,4 } >> h'16 g' fis g << { a,8.( h32 c) } \\ { d,4 } >>
+		h'16 g' fis g << { a,8.( h32 c) } \\ { d,4 } >> h'4 r
+		R1
+		r4 d16\f g fis g e, c' h c \tuplet 3/2 8 { a[ e' d] c h a }
+		\appoggiatura g8 fis4\trill d16\p a d h d c d h d a d h %30
+		d c d h \tuplet 3/2 8 { g[\fE h d] g h d e,[ e' d] c h a } g8 fis
+		g16 g' g8 \tuplet 3/2 8 { g,,16[ h d] g h d e,[ e' d] c h a } g8 fis
+		g4 r r2\fermata \markOsanna \bar "||" %33 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

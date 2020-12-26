@@ -680,6 +680,13 @@ tempoSanctus = \tempoMarkup "Andante"
 	tempoPleni = \tempoMarkup "Allegro"
 	tempoOsanna = \tempoMarkup "Allegro"
 
+tempoBenedictus = \tempoMarkup "Andante"
+
+
+markOsanna = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "Osanna da capo" }
+}
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

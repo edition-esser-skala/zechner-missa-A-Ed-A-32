@@ -1294,6 +1294,82 @@ SanctusBassFigures = \figuremode {
 	r2. %43 finis
 }
 
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoBenedictus
+		\mvTr g8\fE-\solo g' fis d g h16 a g4
+		h8 g d' d, g g, g' g
+		fis d e cis d d' cis a
+		d g, a a, d d cis a
+		d g a a, d d'16 c! h8 g %5
+		c c, c c d d16 e fis8\pE g
+		a g fis g a g16 a h8\fE h,
+		c c d d, g\p g' fis d
+		g, g' fis d e d cis a
+		d e fis d g g g g %10
+		fis4 e8 a, d4 r
+		r cis8 d e d cis d
+		e d16 e fis4 g8 e a a,
+		d\fE d cis a d d16 e fis8 g
+		g fis16 g a8 a, d d'16 a fis8 d %15
+		g g g g a a,16 h cis8\p d
+		e d cis d e d16 e fis4\f
+		g8 g a a, d,4 r
+		e'8\pE d c! h a h c cis
+		d c h a g g' a a, %20
+		h' h, c c' r g d h
+		g g' fis g d4 r
+		g,8 g' fis d g, g' fis d
+		g fis e fis g a16 h c8 h16 a
+		h8 h, c c d d d, d %25
+		g g' fis d g e fis d
+		g e fis d g g, a a'
+		h h, c c d4 d,
+		g8\fE g'16 a h8 g c c, c c
+		d d16 e fis8 g a g fis\p g %30
+		a g r h,\f c c d d,
+		e' d16 c h8 h c c d d,
+		g4-\critnote r r2\fermata \markOsanna \bar "||" %33 finis
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	r4 \bo <[6]> <4>8 \bc <[6]>4.
+	\bo <[6 \l]>4 <8 6>8 <7 5> <4> \bc <[3 \l]>4.
+	\bo <[6]>4. \bc q8 <4> <3> \bo <[6]> \bc <[_+]>
+	r <[6]> <4> <_+> r4 \bo <[6]>8 \bc <[_+]>
+	r <[6]> <4> <_+> r4 <[6]> %5
+	\bo <[5]> \bc <[6]> <4>8 <3> q q
+	q q \bo <[3]> <3> q q \bc <[6]>4
+	\bo <[5]>8 \bc <[6]> <4> <3> r4 <[6]>
+	r q2 <6>8 <[_+]>
+	r4 <[6]>2. %10
+	q4 <7>8 <[7] _+> r2
+	r4 <3>8 q q q q <[3]>
+	<6\\>4 <6> r <4>8 <_+>
+	r4 \bo <[6]>8 <_+> r4 \bc <[6]>
+	<4+ 2>8 <6> <8 6> <7 3> \bo <[4]> <3> \bc <[6]>4 %15
+	\bo <[5]> <6> <4>8 <_+> <3> \bc <[3]>
+	\bo <[3]> <3> q q q q \bc <[6]>4
+	\bo <[5]>8 \bc <[6]> <4> <_+> r2
+	<_+>4 \bo <[6]>8 <6\\> r q <6> \bc <[5!]>
+	r4 \bo <[6]>8 <6> <5> <6> <5> \bc <[6]> %20
+	\bo <[5]> <6> <5> \bc <[6]> r2
+	r4 <[6 5]>2.
+	r4 \bo <[6]>2 \bc q4
+	r8 \bo <[6]> <6> \bc <[6]> r2
+	<[6]>2 <4>4 <_+> %25
+	r4 \bo <[6]>2 \bc q4
+	r4 \bo <[6]>2 \bc q4
+	<[6]>2 <4>4 <3>
+	r4 \bo <[6]> <5> \bc <[6]>
+	\bo <[4]>8 \bc <[3]> <3> q q q q q %30
+	q q r <[6]> r4 <4>8 <3>
+	r4 <[6]>2 <4>8 <3>
+	r1 %33 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
