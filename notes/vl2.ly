@@ -428,3 +428,46 @@ EtResurrexitViolinoII = {
 		c4 d,\fE e r\fermata \bar "|." %203 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		r2 \once \tieDashed g'~\fE
+		g8 f e d e4 fis
+		g8 d g4. f8 e d
+		e d e fis g d g4
+		g fis g h~ %5
+		h8 h d h c4 h
+		r gis2 gis8 gis
+		e d e f c4-\critnote h
+		\tempoPleni c8 c' c c c c h4
+		c16 g c d e8-!\p f-! e-! f-! e-! f-! %10
+		f e h\fE c h c h c
+		c h g' e c4 f8 d
+		h4 e8 c a4 d8 h
+		g e d4 e e8\p f
+		e( f) e( f) f( e) e'(\fE f) \noBreak %15
+		e( f) e( f) f-! e-! r4 \bar "||"
+		\time 3/4 \tempoOsanna R2.*8 %24
+		c4\fE d h %25
+		c d h
+		c8 h c d e c
+		a g? a h c4
+		h a gis
+		a e' c %30
+		a d8 c h a
+		g4 c c
+		h r r
+		e, f d
+		e f d %35
+		e f d
+		e f d
+		c' d h
+		c d h
+		c8 d e f g g,^\critnote %40
+		a h c d e4
+		d c h
+		c r r\fermata \bar "|." %43 finis
+	}
+}

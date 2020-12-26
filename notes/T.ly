@@ -759,6 +759,98 @@ EtResurrexitTenoreLyrics = \lyricmode {
 	a -- men. %203 finis
 }
 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr \once \tieDashed c2~\fE^\tuttiE c8[ h a g]
+		a4 h c4. h16[( a])
+		g8[( h c d] d[ a g h)]
+		g4 e'8([ d16 c] h8[ a)] g4
+		g( fis) g h~ %5
+		h d8 h c4 h
+		r d2 e8 f
+		e4. d8 c4( h8.) a16
+		\tempoPleni a8 a a a a4 g8 g
+		g g r4 r2 %10
+		r4 h8([ c)] h([ c)] h([ c)]
+		c h r4 e d~
+		d c2 h4
+		c8 g^\critnote g4 g r
+		r2 r4 c \noBreak %15
+		c c c8 c r4 \bar "||"
+		\time 3/4 \tempoOsanna \mvTr c4\pE^\solo d h
+		c( d) h
+		c e d
+		c \appoggiatura h a2 %20
+		g4 r r
+		R2.*3
+		\mvTr g4\fE^\tuttiE a h %25
+		g( a) g
+		g g r
+		c c c
+		d h2
+		a4 r c %30
+		d d h8 h
+		c2( g4)
+		g r r
+		c d h
+		c( d) h %35
+		e d2
+		c4( a) g
+		g a g8[ f]
+		e4 a f^\critnote
+		g2 r4 %40
+		f'4 f e
+		a,8 a g2
+		g4 r r\fermata \bar "|." %43 finis
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	San --
+	_ _ _ ctus,
+	san --
+	ctus, san -- ctus,
+	san -- ctus Do -- %5
+	mi -- nus De -- us,
+	Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth. Ple -- ni sunt coe -- li et
+	ter -- ra %10
+	glo -- ri -- a __
+	tu -- a, glo -- _
+	_ _
+	ri -- a tu -- a,
+	glo -- %15
+	ri -- a tu -- a.
+	O -- san -- na
+	in __ ex --
+	cel -- sis, in
+	ex -- cel -- %20
+	sis,
+
+	o -- san -- na %25
+	in __ ex --
+	cel -- sis,
+	o -- san -- na,
+	o -- san --
+	na, o -- %30
+	san -- na in ex --
+	cel --
+	sis,
+	o -- san -- na
+	in __ ex -- %35
+	cel -- sis,
+	in __ ex --
+	cel -- _ _
+	_ _ _
+	sis, %40
+	o -- san -- na
+	in ex -- cel --
+	sis. %43 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

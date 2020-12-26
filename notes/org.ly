@@ -1198,6 +1198,102 @@ EtResurrexitBassFigures = \figuremode {
 	r4 <7>2. %203 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSanctus
+		\mvTr c8\fE-\tuttiE d e c g'4 r8 e
+		f4 g c,8 h a d
+		g,4 r8 g' d4 g,
+		c8 h c d g, a h g
+		c a d d, g4 \once \tieDashed g'~ %5
+		g h8 g c4 g
+		r f2 e8 d
+		c h c d e2
+		\tempoPleni a,8 a' a a f d g g,
+		c4 r r2 %10
+		r4 g' g g
+		g r a8 f d4
+		g8 e c4 f8 d h4
+		e8 c g4 c r
+		r2 r4 c \noBreak %15
+		c c c r \bar "||"
+		\time 3/4 \tempoOsanna \mvTr c4\pE-\soloE f g \noBreak
+		e f g
+		e c h
+		e d d, %20
+		g c d
+		h c d
+		g, a8 h c4
+		f g g,
+		\mvTr c\fE-\tutti f g %25
+		e f g
+		e c r
+		f8 e f g a f
+		d4 e e,
+		a r a' %30
+		f d g
+		c,8 h c d e f
+		g4 r r
+		\clef "treble_8" c d h
+		c d h %35
+		\clef bass c, d h
+		c d h
+		c f g
+		a f d
+		e c r %40
+		f8 g a h c c,
+		f4 g g,
+		c r r\fermata \bar "|." %43 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r4 <[6]> <4>8 <3> r <10>
+	<9> <8> <6> <5> r4 <6\\>
+	\bo <[4]>8 \bc <[3]>4. <4>8 <3> \bo <[8] 6> \bc <[7] 5>
+	r4. <_+>8 r4 <[6]>
+	<[6] 5> <_+>2. %5
+	r4 <[6]>2.
+	r4 <4 2+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<[7]>4 <6> \bo <[6 4]> <5 \t>8 \bc <[\t _+]>
+	r2 <6 5>
+	r1 %10
+	r4 <5 3>8 <6 4> <5 3> <6 4> <5 3> <6 4>
+	<6 4> <5 3>4. <5>2
+	r1
+	<[6]>4 <4>8 <3> r2
+	r2. <5 3>8 <6 4> %15
+	<5 3> <6 4> <5 3> <6 4> <6 4> <5 3>4.
+	r4 <6>2
+	q4 q2
+	q2 <[6]>4
+	\bo q <6 4> \bc <[5] _+> %20
+	r <[6]> <_+>
+	<6> q <_+>
+	r4. <[6 5!]>
+	r4 <4> <3>
+	r4 <6>2 %25
+	\bo <[6]>4 \bc q2
+	q2.
+	r2 <[6]>4
+	<[6]> <4> <_+>
+	r2. %30
+	<6>
+	r
+	r
+	<3>4 q q
+	q q q %35
+	r \bo <[6]> \bc q
+	r \bo <[5]> \bc <[6]>
+	r q2
+	r4 <6> q
+	q2. %40
+	r2.
+	\bo <[8 6]>8 \bc <[7 5]> <4>4 <3>
+	r2. %43 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

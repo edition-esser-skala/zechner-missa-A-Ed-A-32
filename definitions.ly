@@ -676,6 +676,10 @@ tempoCrucifixus = \tempoMarkup "Adagio"
 tempoEtResurrexit = \tempoMarkup "Allegro"
 	tempoEtVitam = \tempoMarkup "Presto"
 
+tempoSanctus = \tempoMarkup "Andante"
+	tempoPleni = \tempoMarkup "Allegro"
+	tempoOsanna = \tempoMarkup "Allegro"
+
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

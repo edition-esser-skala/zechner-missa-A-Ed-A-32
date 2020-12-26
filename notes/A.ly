@@ -913,6 +913,96 @@ EtResurrexitAltoLyrics = \lyricmode {
 	a -- men. %203 finis
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		r2 \mvTr g'~\fE^\tuttiE
+		g8[ f e d] e4 fis
+		g8[ d] g4 r g8([ f]
+		e[ d)] c4 r d8 d
+		e4( d) d g~ %5
+		g g8 g g4^\critnote g
+		r gis2 gis8 gis
+		e4. f8 e4. e8
+		\tempoPleni e e e e d4 d8 d
+		e e r4 r2 %10
+		r4 g g g
+		g8 g r4 a f
+		d g c, f
+		e8 e d4 e r
+		r2 r4 g8([ a)] \noBreak %15
+		g([ a)] g[( a)] a g r4 \bar "||"
+		\time 3/4 \tempoOsanna R2.*4 %20
+		\mvTr g4\pE^\solo a fis
+		g( a) fis
+		g4. f8 e4
+		f d2
+		e4 r r %25
+		\mvTr g4\fE^\tutti f( d)
+		e2 r4
+		f8([ g)] f4 f
+		f e2
+		e4^\critnote r e %30
+		f f d8 d
+		e[( d e f g a])
+		d,4 r r
+		e f d
+		e( f) d %35
+		g8([ a] f2)
+		e8 e f4 d
+		e( f) d
+		c( a' f)
+		e2 r4 %40
+		a a g
+		f8^\critnote e d2
+		e4 r r\fermata \bar "|." %43 finis
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	San --
+	_ _
+	_ ctus, san --
+	ctus, san -- ctus,
+	san -- ctus Do -- %5
+	mi -- nus De -- us,
+	Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth. Ple -- ni sunt coe -- li et
+	ter -- ra %10
+	glo -- ri -- a
+	tu -- a, glo -- _
+	_ _ _ _
+	ri -- a tu -- a,
+	glo -- %15
+	ri -- a __ tu -- a.
+
+	O -- san -- na %21
+	in __ ex --
+	cel -- sis, in
+	ex -- cel --
+	sis, %25
+	o -- san --
+	na,
+	o -- san -- na,
+	o -- san --
+	na, o -- %30
+	san -- na in ex --
+	cel --
+	sis,
+	o -- san -- na
+	in __ ex -- %35
+	cel --
+	sis, o -- san -- na
+	in __ ex --
+	cel --
+	sis, %40
+	o -- san -- na
+	in ex -- cel --
+	sis. %43 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

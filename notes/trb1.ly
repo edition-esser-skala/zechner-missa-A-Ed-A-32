@@ -476,3 +476,45 @@ EtResurrexitTromboneI = {
 		r4 d e r\fermata \bar "|." %203 finis
 	}
 }
+
+SanctusTromboneI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		r2 \once \tieDashed g'~\fE
+		g8 f e d e4 fis
+		g8 d g4 r g8 f
+		e d c4 r d8 d
+		e4 d d \once \tieDashed g~ %5
+		g g8 g g4 g
+		r gis2 gis8 gis
+		e4. f8 e4. e8
+		\tempoPleni e e e e d4 d8 d
+		e e r4 r2 %10
+		r4 g g g
+		g8 g r4 a f
+		d g c, f
+		e8 e d4 e r
+		r2 r4 g8 a \noBreak %15
+		g a g a a g r4 \bar "||"
+		\time 3/4 \tempoOsanna R2.*9 %25
+		g4\fE f d
+		e2 r4
+		f8 g f4 f
+		f e2
+		e4 r e %30
+		f f d8 d
+		e d e f g a
+		d,4 r r
+		e f d
+		e f d %35
+		g8 a f2
+		e8 e f4 d
+		e f d
+		c a' f
+		e2 r4 %40
+		a a g
+		f8 e d2
+		e4 r r\fermata \bar "|." %43 finis
+	}
+}

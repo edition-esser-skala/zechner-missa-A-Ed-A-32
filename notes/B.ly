@@ -732,8 +732,50 @@ EtResurrexitBassoLyrics = \lyricmode {
 	a -- men. %203 finis
 }
 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		R1*2
+		\mvTr \once \tieDashed g'2~\fE^\tuttiE g8[ f e d]
+		e4. fis8 g[ d h g]
+		c4 d g, g'~ %5
+		g h8 g c4 g
+		r f2 e8 d
+		c([ h)] c([ d)] e4. e8
+		\tempoPleni a, a' a a f([ d)] g g,
+		c c r4 r2 %10
+		r4 g' g g
+		g8 g r4 a8[ f] d4
+		g8[ e] c4 f8[ d] h4
+		e8 c g4 c r
+		r2 r4 c \noBreak %15
+		c c c8 c r4 \bar "||"
+		\time 3/4 \tempoOsanna R2.*8 %24
+		\mvTr c4\fE^\tuttiE f g
+		e( f) g
+		e c r
+		f8([ e)] f([ g)] a([ f)]
+		d4 e2
+		a,4 r a'
+		f d g8 g
+		c,([ h c d e f)]
+		g4 r r
+		R2.*2
+		c,4 d h
+		c( d) h
+		c f g
+		a f d
+		e c r
+		f8([ g)] a([ h)] c4
+		f,( g g,)
+		c r r\fermata \bar "|."
+	}
+}
 
+SanctusBassoLyrics = \lyricmode {
 
+}
 
 % BassoNotes = {
 % 	\relative c {
