@@ -552,3 +552,125 @@ AgnusDeiViolinoII = {
 		gis1.\fermata \bar "||" %37 finis
 	}
 }
+
+DonaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoDona
+			\set Score.currentBarNumber = #38
+		c'2.\fE c4
+		c2 c
+		d4 h g h %40
+		c2. c4
+		d h g h
+		c2 h
+		a1
+		g %45
+		r4 h e d
+		c d2 c4
+		h g e' d
+		c d2 c4
+		h g c2~ %50
+		c h
+		c e~
+		e4 e e e
+		a, d h d
+		g,2 e' %55
+		a,4 d h d
+		g, a h2
+		c2. c4
+		h e d c
+		h1 %60
+		R1*5 %65
+		c2. c4
+		c2 c
+		d4 h g h
+		c2. c4
+		d h g h %70
+		c a f a
+		h gis e gis
+		a1
+		r4 c f e
+		d e2 d4 %75
+		c a f' e
+		d e2 d4
+		c2 c~
+		c4 c c c
+		d h e d %80
+		c a r c
+		h2 \once \tieDashed e~
+		e dis
+		e h~
+		h4 h c h %85
+		a h2 a4
+		g h c h
+		a h2 a4
+		g a2 g4
+		fis d \once \tieDashed g2~ %90
+		g fis
+		g4 h c h
+		c h^\critnote h2
+		a2. a4
+		g2 r4 h %95
+		a1
+		g2 g
+		a d
+		g, e'
+		d4 h e, h' %100
+		c d \once \tieDashed e2~
+		e d
+		e1
+		c2. c4
+		c2 c %105
+		d4 h g h
+		c2. c4
+		d h g h
+		c2 e~
+		e4 e e e %110
+		a, d h d
+		g,2 e'
+		a,4 d h d
+		g,2 e'
+		f4 g2 f4 %115
+		e f2 e4
+		d e2 d4
+		c d2 c4
+		h g h d
+		g2 g, %120
+		R1
+		r2 h
+		c4 a fis a
+		h d e2
+		d1 %125
+		c4 e f e
+		f2 e
+		d1
+		c2 e
+		a,4 d h d %130
+		g,2 a
+		b1
+		a2 c~
+		c4 c b a
+		b g e g %135
+		a2. a4
+		b g e g
+		a2 r
+		R1*2 %140
+		c2. c4
+		c2 c
+		d4 h g h
+		c2. c4
+		d h g h %145
+		c2. e4
+		f g2 f4
+		e f2 e4
+		d e2 d4
+		c d2 c4 %150
+		h g c2~
+		c h
+		c2. c4
+		d h g h
+		c c c h %155
+		c2 r\fermata \bar "|." %156 FINIS
+	}
+}

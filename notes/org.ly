@@ -1453,3 +1453,269 @@ AgnusDeiBassFigures = \figuremode {
 	r <7> <6>
 	<_+>1. %37 finis
 }
+
+DonaOrgano = {
+	\relative c {
+		\clef treble
+		\key c \major \time 2/2 \tempoDona
+			\set Score.currentBarNumber = #38
+		\mvTr c''2.\fE-\tutti c4
+		c2 c
+		d4 h g h %40
+		c2. c4
+		d h g h
+		c2 h
+		a1
+		<< {
+			g %45
+			r4 h e d
+			c d2 c4
+			h h e d
+			c d2 c4
+			h2 c %50
+			c h
+		} \\ {
+			g2. g4 %45
+			g2 g
+			a4 fis d fis
+			g2. g4
+			a fis d fis
+			g2 e %50
+			d1
+		} >>
+		\clef "treble_8" c2. c4
+		c2 c
+		d4 h g h
+		c2. c4 %55
+		d h g h
+		c2 h
+		a1
+		\clef bass g2. g4
+		g2 g %60
+		a4 fis d fis
+		g2. g4
+		a fis d fis
+		g2 e
+		d1 %65
+		c
+		r4 e a g
+		f g2 f4
+		e c a' g
+		f g2 f4 %70
+		e f2 e4
+		d e2 d4
+		c a c e
+		a2 \clef treble << {
+			f''4 e
+			d e2 d4 %75
+			c a f' e
+			d e2 d4
+		} \\ {
+			a2
+			h4 gis e gis %75
+			a2. a4
+			h gis e gis
+		} >>
+		\clef bass a,2. a4
+		a2 a
+		h4 gis e gis %80
+		a2 a~
+		a4 g! fis e
+		h1
+		e
+		\clef "treble_8" e'2 e %85
+		fis4 dis h dis
+		e2. e4
+		fis dis h dis
+		e cis a cis
+		d2 h %90
+		a1
+		\clef bass g2. g4
+		g2 g
+		a4 fis d fis
+		g2. g4 %95
+		a fis d fis
+		g2 e
+		d1
+		c2 c'
+		g gis %100
+		a2. g4
+		f1
+		e
+		\clef treble c''2. c4
+		c2 c %105
+		d4 h g h
+		c2. c4
+		d h g h
+		\clef bass c,,2. c4
+		c2 c %110
+		d4 h g h
+		c2. c4
+		d h g h
+		c2 c'
+		d4 h g h %115
+		c a f a
+		h g e g
+		a fis d fis
+		g1
+		r4 h, e d %120
+		c d2 c4
+		h g e' d
+		c d2 c4
+		h g \once \tieDashed c2~
+		c h %125
+		c1
+		\clef "treble_8" c'2 c
+		d4 h g h
+		c2. c4
+		d h g h %130
+		c2 a
+		g1
+		\clef bass f2. f4
+		f2 f
+		g4 e c e %135
+		f2. f4
+		g e c e
+		f f a h!
+		c g \once \tieDashed c2~
+		c h %140
+		c r
+		r r4 e,
+		f g2 f4
+		e c a' g
+		f g2 f4 %145
+		e c c'2
+		d4 h g h
+		c a f a
+		h g e g
+		a f d f %150
+		g2 c,
+		g1
+		c2 e
+		f g
+		e4 c g2 %155
+		c r\fermata \bar "|." %156 FINIS
+	}
+}
+
+DonaBassFigures = \figuremode {
+	r1 %38
+	r
+	r %40
+	r
+	r
+	r
+	r
+	r %45
+	r
+	r
+	r
+	r
+	r %50
+	r
+	r
+	<5>2 <6>4 <5>
+	r4 <[6]>2 <6 5>4
+	<5>2 <6>4 <5> %55
+	r4 <[6]>2 <6 5>4
+	\bo <[5]> \bc <[6]> <6>2
+	<7> <6\\>
+	<5 3>4 <6 4> <5 3> <4 2>
+	<5 3>2 <6>4 <[5]> %60
+	r \bo <[6]> \bc <[_+]> <6 5>
+	<5>2 <6>4 <[5]>
+	r \bo <[6]> \bc <[_+]> <6 5>
+	r2 <6>
+	<7> <6> %65
+	r1
+	r4 \bo <[6]>2 \bc <[2]>4
+	<6 5>2. <[4 3]>4
+	<6>2. <[2]>4
+	<6 5>2. <[2]>4 %70
+	<6 5>2. <[2]>4
+	<6 5>4 <_+>2 <[\t]>4
+	<6>1
+	r
+	r %75
+	r
+	r
+	r
+	<5>2 <6>4 <5>
+	r \bo <[6 \l]> <_+> \bc <[6 5]> %80
+	<5>1
+	\bo <[6+] 4+ 2>4 <6> \bc <[6\\]>2
+	\bo <[5+] 4>2 \bc <[\t] _+>
+	r1
+	r2 <6>4 <5> %85
+	r4 \bo <[6 _+ \l]> <5+ _+> \bc <[6 5 _+]>
+	r2 \bo <6 [4]>4 \bc <5 [3]>
+	r4 \bo <[6 _+ \l]> <5+ _+> \bc <[6 5 _+]>
+	r <6> <[_+]> <5>4
+	<_+>2 <6> %90
+	<7> <6\\>
+	<5 3> <6 4>4 <[5 3]>
+	<6 4> <5 3> <6> <5>
+	r <6> <[_+]> <5>4
+	<5>2 <6>4 <5> %95
+	r \bo <[6]> <_+> \bc <[5]>
+	r2 <[6]>
+	\bo <[7]> \bc <[6]>
+	r1
+	\bo <[5 4]>2 \bc <[6 5]> %100
+	r2. <[6]>4
+	<7>2 <6>
+	<_+>1
+	r
+	r %105
+	r
+	r
+	r
+	r
+	<5>2 <6>4 <5> %110
+	r \bo <[6 \l]>2 \bc <[6 5]>4
+	<5>2 <6>4 <5>
+	r \bo <[6 \l]>2 \bc <[6 5]>4
+	\bo <[5]>2 \bc <[6]>
+	\bo <[9]>4 \bc <[6]>2 <6 5>4 %115
+	<9> <[6]>2 <6 5>4
+	<9> <[6]>2 <6 5>4
+	<9> \bo <[6]> \bc <[_+]> <6 5>
+	r1
+	r4 <6>2 <[2]>4 %120
+	<6> <_+>2 <[\t]>4
+	<6>2. <[2]>4
+	<6> <_+>2 <\t>4
+	<6>1
+	<4 2>2 <[6 5]> %125
+	\bo <[5 3]> <6 4>4 \bc <[5 3]>
+	\bo <[6 4]>2 <6>4 <5>
+	r <[6]>2 <6 5>4
+	r2 <6>4 <5>
+	r \bo <[6 \l]>2 \bc <[6 5]>4 %130
+	r2 <6>
+	<7 _-> <6 \t>
+	r1
+	r2 \bo <6 [4-]>4 \bc <5 [3]>
+	<_-> \bo <[6]>2 \bc <[5-]>4 %135
+	r2 <6>4 <5>
+	<_-> \bo <[6]>2 \bc <[5-]>4
+	r2 \bo <[6]>4 \bc <[7]>
+	<5 4> \bassFigureExtendersOn q <5 3>2 \bassFigureExtendersOff
+	<4 2> <\t \t> %140
+	r1
+	r2. <6>4
+	<6 [5]>2. <[2]>4
+	<6>2. <[2]>4
+	<6 5>2. <[4 3]>4 %145
+	\bo <[6]>2 \bc q
+	<9>4 <[6]>2 <6 5>4
+	<9> <[6]>2 <6 5>4
+	<9> \bo <[6 \l]>2 \bc <[6 5]>4
+	<9> \bo <[6 \l]>2 \bc <[6 5]>4 %150
+	r1
+	<4>2 <3>
+	r <[6]>
+	<6 5>1
+	<6>2 <4>4 <3> %155
+	r1 %156 FINIS
+}

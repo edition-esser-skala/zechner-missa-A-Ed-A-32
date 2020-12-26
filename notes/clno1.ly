@@ -410,3 +410,77 @@ AgnusDeiClarinoI = {
 		R1.\fermataMarkup \bar "||" %37 finis
 	}
 }
+
+DonaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoDona
+			\set Score.currentBarNumber = #38
+		R1*21 %58
+		g''2.\fE g4
+		g2 g %60
+		e a
+		\pao d, g
+		e a
+		d, e
+		f1 %65
+		e2 g
+		g e
+		f d
+		e2. e4
+		f2 d %70
+		e r
+		R1
+		r2 e
+		e r
+		R1*3 %77
+		e2. e4
+		e2 r
+		R1*12 %91
+		r4 d e d
+		e d e d
+		\pa c d2 d4 \pd
+		d2 r %95
+		R1
+		d2 e
+		f4 e8 f g4 f
+		e2 r
+		R1*4 %103
+		r2 g
+		a g %105
+		f1
+		e4^\critnote g a g
+		f1
+		e2 g~
+		g4 g a g %110
+		f g2 f4
+		e g a g
+		f g2 f4
+		e1
+		R1*4 %118
+		g2. g4
+		g2 g %120
+		\pa a4 fis d fis
+		g2. g4
+		a fis d fis
+		g2 \pd g
+		f!2. g8 f %125
+		e1
+		R1*12 %138
+		r4 g g g
+		f2. f4 %140
+		e2 g
+		a4 g g2
+		r d
+		e2. e4
+		f2 d %145
+		e r
+		R1*4 %150
+		d2 e
+		d2. d4
+		c2 g'
+		f d
+		e4 e d2 %155
+		c r\fermata \bar "|." %156 FINIS
+	}
+}

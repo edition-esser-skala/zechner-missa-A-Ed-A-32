@@ -449,3 +449,103 @@ AgnusDeiTromboneII = {
 		h1.\fermata \bar "||" %37 finis
 	}
 }
+
+DonaTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 2/2 \tempoDona
+			\set Score.currentBarNumber = #38
+		R1*14 %51
+		c2.\fE c4
+		c2 c
+		d4 h g h
+		c2. c4 %55
+		d h g h
+		c2 h
+		a1
+		g
+		r4 h e d %60
+		c d2 c4
+		h g e' d
+		c d2 c4
+		h g c2~
+		c h %65
+		c c~
+		c4 c c c
+		a h2 a4
+		g e' c e
+		d1 %70
+		c
+		h
+		c2. h4
+		a2 r
+		R1*9 %83
+		e'2. e4
+		e2 e %85
+		fis4 dis h dis
+		e2. e4
+		fis dis h dis
+		e cis a cis
+		d2 h %90
+		a1
+		g
+		r4 h e d
+		c d2 c4
+		h g-\critnote e' d %95
+		c d2 c4
+		h g c2~
+		c h
+		c c
+		c h %100
+		a4 h c h
+		a1
+		h
+		R1*5 %108
+		g2. g4
+		g2 c %110
+		a4 g g2
+		r c
+		a4 g g2
+		r e'~
+		e d~ %115
+		d c~
+		c h~
+		h a
+		g1
+		h2. h4 %120
+		c a fis a
+		h1
+		R1*3 %125
+		c2. c4
+		c2 c
+		d4 h g h
+		c2. c4
+		d h g h %130
+		c2 a
+		g1
+		f
+		r4 a d c
+		b c2 b4 %135
+		a f d' c
+		b c2 b4
+		a2 f'~
+		f e
+		d1 %140
+		c2 r
+		c2. c4
+		a d h d
+		e2 c^\critnote
+		a4 h2 a4 %145
+		g2 e'~
+		e d~
+		d c~
+		c \once \tieDashed h~
+		h a %150
+		g g
+		g1
+		g2 e'
+		d h
+		g4 g g2 %155
+		g r\fermata \bar "|." %156 FINIS
+	}
+}

@@ -683,6 +683,7 @@ tempoSanctus = \tempoMarkup "Andante"
 tempoBenedictus = \tempoMarkup "Andante"
 
 tempoAgnusDei = \tempoMarkup "Adagio"
+tempoDona = \tempoMarkup "Allabreve"
 
 
 markOsanna = {
