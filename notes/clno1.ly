@@ -385,3 +385,28 @@ SanctusClarinoI = {
 		c4^\critnote r r\fermata \bar "|." %43 finis
 	}
 }
+
+AgnusDeiClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \tempoAgnusDei
+		r2 g''\fE g
+		a g r
+		g1.
+		g1 r2
+		R1.*4 %8
+		e2 r e
+		d d1\trill %10
+		c2 r r
+		R1.*16 %27
+		r2 g'\fE g
+		a g r
+		R1. %30
+		g2 g g
+		f f f
+		f f f
+		e1 r2
+		R1.*2 %36
+		R1.\fermataMarkup \bar "||" %37 finis
+	}
+}

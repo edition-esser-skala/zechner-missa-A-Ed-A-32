@@ -1003,13 +1003,56 @@ SanctusAltoLyrics = \lyricmode {
 	sis. %43 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \autoBeamOff \tempoAgnusDei
+		r2 \mvTr g'\fE^\tuttiE g
+		a g r
+		g1.
+		g2 g g
+		a1. %5
+		h!2 a1
+		a2 r r
+		r a a
+		g( a g)
+		a g1 %10
+		g2 r r
+		R1.*16 %27
+		r2 \mvTr g\fE^\tutti g
+		a g r
+		g1. %30
+		g
+		f1 f2
+		f1 f2
+		e e e
+		e1 e2 %35
+		e1( d2)
+		e1.\fermata \bar "||" %37 finis
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus
+	De -- i,
+	qui
+	tol -- lis pec --
+	ca -- %5
+	ta mun --
+	di:
+	Mi -- se --
+	re --
+	re no -- %10
+	bis.
+
+	A -- gnus %28
+	De -- i,
+	qui %30
+	tol --
+	lis pec --
+	ca -- ta
+	\xE mun -- di, pec --
+	ca -- ta %35
+	mun --
+	\x di: %37 finis
+}

@@ -1370,13 +1370,86 @@ BenedictusBassFigures = \figuremode {
 	r1 %33 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/2 \tempoAgnusDei
+		r2 \mvTr c\fE-\tutti c
+		c c r
+		c'1.
+		a2 a g
+		f4 e d c b a %5
+		gis2 a1
+		d2 \clef treble a''-! d4-! e-!
+		f2 \clef bass d,, a'4 h
+		c2 a e
+		f g g, %10
+		c r r
+		\mvTr fis\pE-\solo fis fis
+		g1 r2
+		gis gis gis
+		a2. a,4 c a %15
+		d2 d d
+		e4 fis gis fis gis e
+		a2 a, r
+		r4 cis cis cis cis cis
+		d2 r r %20
+		r4 h h h h h
+		c2 r r
+		a a a
+		h h h
+		c c c %25
+		h dis e
+		ais, h1
+		e,2 \mvTr c'\fE-\tutti c
+		c c r
+		\clef treble g''1. %30
+		\clef bass cis,,2 cis cis
+		d f4 e d c
+		h2 h h
+		c1 c'2
+		a1 g2~ %35
+		g f1
+		e1.\fermata \bar "||" %37 finis
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r1.
+	<6 4>2 <5 3>1
+	<5>1.
+	<7 _+>1 <\t \t>2
+	<6>1 \bassFigureExtendersOn q4 q \bassFigureExtendersOff %5
+	<7 _!>4 <[6 \t]> <4>2 <_+>
+	r1.
+	r1 <6>4 <\t>
+	r1 <6>2
+	<[6]> <4> <3> %10
+	r1.
+	<[6] 5>
+	\bo <[9 4]>2 \bc <[8 3]>1
+	<6 5>1.
+	\bo <[9] 4>2 \bc <[8] 3>1 %15
+	<[5]>1 <6->4 <5>
+	<_+>1.
+	r
+	r4 <6> r1
+	r1. %20
+	r4 <6> r1
+	r1.
+	<[5]>1 <6\\>4 <5>
+	<[5+] _+>1.
+	<7>1 <6>2 %25
+	\bo <[7 5+] _+>2 \bc <[6 _+]>1
+	<7 [_+]>2 \bo <[5+] 4> \bc <[\t] _+>
+	r1.
+	<6 4>2 <5 3>1
+	r1. %30
+	<6 5>
+	\bo <[8 3]>1 \bassFigureExtendersOn <8 3>4 \bc <[8 3]> \bassFigureExtendersOff
+	<6 5>1.
+	r
+	r1 <6>2 %35
+	r <7> <6>
+	<_+>1. %37 finis
+}

@@ -510,3 +510,45 @@ BenedictusViolinoII = {
 		g4 r r2\fermata \markOsanna \bar "||" %33 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \tempoAgnusDei
+		r2 e'\fE e
+		f e r
+		c1.
+		cis2 cis cis
+		d d d %5
+		d d cis
+		d a d4 e
+		f2 a, c4 d
+		g,2 c4 d e2
+		a4 f d2. d4 %10
+		e2 r r
+		r4 a,\pE a a c a
+		a-\critnote h h h h h
+		r h h h d h
+		h a a2 r %15
+		R1.*3
+		r4 e e e e e
+		f2 r r %20
+		r4 d d d d d
+		e2 r r
+		R1.
+		r4 h' h h h h
+		h2 r a %25
+		a dis, h
+		e e dis
+		e e'\f e
+		f e r
+		g,1. %30
+		g2 g g
+		f f' f,
+		f f f
+		e e' g,
+		c1 h2~ %35
+		h a1
+		gis1.\fermata \bar "||" %37 finis
+	}
+}

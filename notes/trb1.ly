@@ -518,3 +518,32 @@ SanctusTromboneI = {
 		e4 r r\fermata \bar "|." %43 finis
 	}
 }
+
+AgnusDeiTromboneI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \tempoAgnusDei
+		r2 g'\fE g
+		a g r
+		g1.
+		g2 g g
+		a1. %5
+		h!2 a1
+		a2 r r
+		r a a
+		g a g
+		a g1 %10
+		g2 r r
+		R1.*16 %27
+		r2 g\fE g
+		a g-\critnote r
+		g1. %30
+		g
+		f1-\critnote f2
+		f1 f2
+		e e e
+		e1 e2 %35
+		e1 d2
+		e1.\fermata \bar "||" %37 finis
+	}
+}

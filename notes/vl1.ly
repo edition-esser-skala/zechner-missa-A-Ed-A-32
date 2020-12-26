@@ -511,9 +511,44 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \tempoAgnusDei
+		r2 c''\fE c
+		a g r
+		e1.
+		e2 e e
+		f f f %5
+		f4 e e2. d4
+		d2 a-\critnote d4 e
+		f2 f f
+		e e c'
+		c c h %10
+		c r r
+		r4 c,\p c c a' c,
+		c d d d d d
+		r d d d h' d,
+		d c c2 r %15
+		R1.*3
+		r4 a a a a a
+		a2 r r %20
+		r4 g g g g g
+		g2 r r
+		R1.
+		r4 dis' dis dis dis dis
+		e2 r e %25
+		dis fis g
+		g, fis1
+		e2 g'\fE g
+		a g r
+		R1. %30
+		a,2 a a
+		a a' a,
+		g g g
+		g g' e
+		e e e %35
+		e1 d2\trill
+		e1.\fermata \bar "||" %37 finis
+	}
+}

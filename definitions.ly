@@ -682,6 +682,8 @@ tempoSanctus = \tempoMarkup "Andante"
 
 tempoBenedictus = \tempoMarkup "Andante"
 
+tempoAgnusDei = \tempoMarkup "Adagio"
+
 
 markOsanna = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT

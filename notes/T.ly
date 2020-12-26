@@ -851,13 +851,56 @@ SanctusTenoreLyrics = \lyricmode {
 	sis. %43 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/2 \autoBeamOff \tempoAgnusDei
+		r2 \mvTr e\fE^\tuttiE e
+		f e r
+		e1.
+		e2 e e
+		f1. %5
+		f4( e) e1
+		d2 r r
+		r d c4( d)
+		e2( c) \once \tieDashed c~
+		c c( h) %10
+		c r r
+		R1.*16 %27
+		r2 \mvTr e\fE^\tutti e
+		f e r
+		R1. %30
+		e
+		d2 d4 d d d
+		d1.
+		c1 c2
+		c1 e2~ %35
+		e c( a)
+		h1.\fermata \bar "||" %37 finis
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus
+	De -- i,
+	qui
+	tol -- lis pec --
+	ca -- %5
+	ta __ mun --
+	di:
+	Mi -- se --
+	re -- re __
+	no -- %10
+	bis.
+
+	A -- gnus %28
+	De -- i,
+	%30
+	qui
+	tol -- lis pec -- ca -- ta
+	mun --
+	di, pec --
+	ca -- ta __ %35
+	mun --
+	di: %37 finis
+}

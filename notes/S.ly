@@ -1013,8 +1013,8 @@ SanctusSopranoLyrics = \lyricmode {
 	o -- san -- na
 	in __ ex --
 	cel -- %40
-	_ _
-	sis, ex -- cel --
+	_ sis,
+	in ex -- cel --
 	sis. %43 finis
 }
 
@@ -1071,13 +1071,56 @@ BenedictusSopranoLyrics = \lyricmode {
 	ni. %29 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \autoBeamOff \tempoAgnusDei
+		r2 \mvTr c'\fE^\tutti c
+		c^\critnote c r
+		c1.
+		cis2 cis cis
+		d1. %5
+		d2 d( cis)
+		d a d4( e)
+		f1.
+		e
+		d2 d1 %10
+		c2 r r
+		R1.*16 %27
+		r2 \mvTr c\fE^\tutti c
+		c c r
+		R1. %30
+		a
+		a2 a4 a a a
+		g1.
+		g2 r g
+		c1 h2~ %35
+		h a1
+		gis1.\fermata \bar "||" %37 finis
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus
+	De -- i,
+	qui
+	tol -- lis pec --
+	ca -- %5
+	ta mun --
+	di: Mi -- se --
+	re --
+	_
+	re no -- %10
+	bis.
+
+	A -- gnus %28
+	De -- i,
+	%30
+	qui
+	tol -- lis pec -- ca -- ta
+	mun --
+	di, pec --
+	ca -- ta __ %35
+	mun --
+	di: %37 finis
+}

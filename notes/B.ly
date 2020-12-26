@@ -752,38 +752,143 @@ SanctusBassoNotes = {
 		r2 r4 c \noBreak %15
 		c c c8 c r4 \bar "||"
 		\time 3/4 \tempoOsanna R2.*8 %24
-		\mvTr c4\fE^\tuttiE f g
+		\mvTr c4\fE^\tuttiE f g %25
 		e( f) g
 		e c r
 		f8([ e)] f([ g)] a([ f)]
 		d4 e2
-		a,4 r a'
+		a,4 r a' %30
 		f d g8 g
 		c,([ h c d e f)]
 		g4 r r
-		R2.*2
+		R2.*2 %35
 		c,4 d h
 		c( d) h
 		c f g
 		a f d
-		e c r
+		e c r %40
 		f8([ g)] a([ h)] c4
-		f,( g g,)
-		c r r\fermata \bar "|."
+		f,8^\critnote f g4( g,)
+		c r r\fermata \bar "|." %43 finis
 	}
 }
 
 SanctusBassoLyrics = \lyricmode {
+	San -- %3
+	_ _ _
+	_ _ ctus Do -- %5
+	mi -- nus De -- us,
+	Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth. Ple -- ni sunt coe -- li et
+	ter -- ra %10
+	glo -- ri -- a
+	tu -- a, glo -- _
+	_ _ _ _
+	ri -- a tu -- a,
+	glo -- %15
+	ri -- a tu -- a.
 
+	O -- san -- na %25
+	in __ ex --
+	cel -- sis,
+	o -- san -- na,
+	o -- san --
+	na, o -- %30
+	san -- na, in ex --
+	cel --
+	sis,
+
+	o -- san -- na %36
+	in __ ex --
+	cel -- _ _
+	_ _ _
+	_ sis, %40
+	\xE o -- san -- na
+	in ex -- cel -- \x
+	sis. %43 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/2 \autoBeamOff \tempoAgnusDei
+		r2 \mvTr c\fE^\tutti c
+		c c r
+		c'1.
+		a2 a g
+		f4( e d c b a) %5
+		gis2 a1
+		d2 r r
+		r d a'4( h)
+		c2( a e)
+		f g( g,) %10
+		c \mvTr c'\pE^\solo a
+		fis1.
+		g1 g2
+		gis1.
+		a1 e2 %15
+		f4 d cis d b' a
+		gis2 h e,^\critnote
+		c'4 gis4 a2 a,4( h)
+		cis1.
+		d4 f a f d c %20
+		h1.
+		c4 e g e c h
+		a2 c'4 a \appoggiatura g8 fis4 e
+		dis( fis) h,2 h'~
+		h e, a2 %25
+		a4 h, dis h' g e
+		ais,2 h1
+		e,2 \mvTr c'\fE^\tutti c
+		c c r
+		R1. %30
+		cis
+		d2 f4 e d c
+		h1.
+		c1^\critnote c'2
+		a1 g2~ %35
+		g f1
+		e1.\fermata \bar "||" %37 finis
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	A -- gnus
+	De -- i,
+	qui
+	tol -- lis pec --
+	ca -- %5
+	ta mun --
+	di:
+	Mi -- se --
+	re --
+	re no -- %10
+	bis. A -- gnus
+	De --
+	i, qui
+	tol --
+	lis pec -- %15
+	ca -- _ _ _ _ _
+	_ _ _
+	_ _ ta, pec --
+	ca --
+	_ _ _ _ _ _ %20
+	_
+	_ _ _ _ _ _
+	_ ta, pec -- ca -- ta
+	mun -- di: Mi --
+	_ se -- %25
+	re -- _ _ _ _ _
+	re no --
+	bis. A -- gnus
+	De -- i,
+	%30
+	qui
+	tol -- lis pec -- ca -- ta
+	mun --
+	di, pec --
+	ca -- ta __ %35
+	mun --
+	di: %37 finis
+}

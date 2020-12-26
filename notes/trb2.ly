@@ -420,3 +420,32 @@ SanctusTromboneII = {
 		g4 r r\fermata \bar "|." %43 finis
 	}
 }
+
+AgnusDeiTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/2 \tempoAgnusDei
+		r2 e\fE e
+		f e r
+		e1.
+		e2 e e
+		f1. %5
+		f4 e e1
+		d2 r r
+		r d c4 d
+		e2 c \once \tieDashed c~
+		c c h %10
+		c r r
+		R1.*16 %27
+		r2 e\fE e
+		f e r
+		R1. %30
+		e
+		d2 d4 d d d
+		d1.
+		c1 c2
+		c1 e2~ %35
+		e c a
+		h1.\fermata \bar "||" %37 finis
+	}
+}
