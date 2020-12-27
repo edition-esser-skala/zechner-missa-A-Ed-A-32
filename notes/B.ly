@@ -414,7 +414,7 @@ GloriaBassoLyrics = \lyricmode {
 	Pa -- tris,
 	a -- _ _
 	_ _ _ _
-	_ _ _ _
+	_ _ _
 	men, a -- %110
 	men, a -- _
 	_ _ _ men,

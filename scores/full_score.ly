@@ -115,7 +115,7 @@
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = "clno 1"
+						\set Staff.instrumentName = \markup \center-column { "clno" "solo" }
 						\ChristeClarinoI
 					>>
 					\new Staff {

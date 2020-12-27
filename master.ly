@@ -6,11 +6,11 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "scores/full_score.ly"
+% \include "scores/full_score.ly"
 
+% \include "scores/ottoni.ly"
 % \include "scores/trb1.ly"
 % \include "scores/trb2.ly"
-% \include "scores/ottoni.ly"
 % \include "scores/vl1.ly"
 % \include "scores/vl2.ly"
 % \include "scores/coro.ly"
