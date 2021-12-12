@@ -1,17 +1,18 @@
-composer: Zechner, Johann Georg
-title: Missa in C
-id: (A-Ed A 32)
+composer:
+  last: Zechner
+  first: Johann Georg
+title: Missa
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: A 32
-    type: manuscript copy
-    date: unknown
     rism: 600037848
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/680.html
-github: zechner-missa-A-Ed-A-32
+    license: public domain
+    principal: true
 imslp: Missa_in_C_(Zechner,_Johann_Georg)
-notes:
-
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
