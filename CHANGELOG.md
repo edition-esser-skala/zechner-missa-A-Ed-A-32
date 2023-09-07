@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.1 – 2023-09-07
+
+### Added
+
+- catalogue of works number
+
+
 ## 2.0.0 - 2021-12-12
 
 ### Changed
